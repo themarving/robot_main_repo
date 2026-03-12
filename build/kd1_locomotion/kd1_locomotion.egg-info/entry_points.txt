@@ -1,8 +1,0 @@
-[console_scripts]
-emergency_stop_node = kd1_locomotion.emergency_stop_node:main
-motor_driver_comms_node = kd1_locomotion.motor_driver_comms_node:main
-moving_robot_node = kd1_locomotion.moving_robot_node:main
-teleop_node = kd1_locomotion.teleop_node:main
-wheel_encoder_tof_node = kd1_locomotion.wheel_encoder_tof_node:main
-wheel_odometry_node = kd1_locomotion.wheel_odometry_node:main
-

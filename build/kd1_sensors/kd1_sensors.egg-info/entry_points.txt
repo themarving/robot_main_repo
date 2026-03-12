@@ -1,5 +1,0 @@
-[console_scripts]
-audio_direction_node = kd1_sensors.audio_direction_node:main
-oak_depthai_node = kd1_sensors.oak_depthai_node:main
-voice_recognition_node = kd1_sensors.voice_recognition_node:main
-

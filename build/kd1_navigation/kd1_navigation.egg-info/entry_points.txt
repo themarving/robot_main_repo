@@ -1,4 +1,0 @@
-[console_scripts]
-custom_costmap_node = kd1_navigation.custom_costmap_node:main
-navigation_node = kd1_navigation.navigation_node:main
-

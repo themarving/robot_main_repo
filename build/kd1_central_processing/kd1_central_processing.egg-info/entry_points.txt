@@ -1,3 +1,0 @@
-[console_scripts]
-central_processing_node = kd1_central_processing.central_processing_node:main
-

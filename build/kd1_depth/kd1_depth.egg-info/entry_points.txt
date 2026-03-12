@@ -1,3 +1,0 @@
-[console_scripts]
-depth_pointcloud2_node = kd1_depth.depth_pointcloud2_node:main
-

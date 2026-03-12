@@ -1,1 +1,0 @@
-string face_state
