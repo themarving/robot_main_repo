@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target emergency_stop_node[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/emergency_stop_node.dir/src/emergency_stop_node.cpp.o[0m
-[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Krclcpp_action/rclcpp_action.hpp: No such file or directory
-    5 | #include [01;31m[K"rclcpp_action/rclcpp_action.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/emergency_stop_node.dir/build.make:76: CMakeFiles/emergency_stop_node.dir/src/emergency_stop_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/emergency_stop_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

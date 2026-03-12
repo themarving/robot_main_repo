@@ -1,7 +1,0 @@
-[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:[m[K In member function ‘[01m[Kvoid EmergencyStopNode::cancel_nav2_goal()[m[K’:
-[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:109:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kstd::shared_future<std::shared_ptr<action_msgs::srv::CancelGoal_Response_<std::allocator<void> > > >[m[K’
-  109 |             cancel_future[01;31m[K->[m[Kadd_done_callback([this](auto future)
-      |                          [01;31m[K^~[m[K
-gmake[2]: *** [CMakeFiles/emergency_stop_node.dir/build.make:76: CMakeFiles/emergency_stop_node.dir/src/emergency_stop_node.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/emergency_stop_node.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2
