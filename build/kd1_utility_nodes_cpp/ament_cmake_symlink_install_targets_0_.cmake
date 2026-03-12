@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/name/kd1_ws/build/kd1_utility_nodes_cpp/face_animation_node_cpp" "TARGETS" "face_animation_node_cpp" "DESTINATION" "lib/kd1_utility_nodes_cpp")

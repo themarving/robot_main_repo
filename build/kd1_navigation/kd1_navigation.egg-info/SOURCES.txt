@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+kd1_navigation/__init__.py
+kd1_navigation/custom_costmap_node.py
+kd1_navigation/navigation_node.py
+kd1_navigation/old_node.py
+kd1_navigation.egg-info/PKG-INFO
+kd1_navigation.egg-info/SOURCES.txt
+kd1_navigation.egg-info/dependency_links.txt
+kd1_navigation.egg-info/entry_points.txt
+kd1_navigation.egg-info/requires.txt
+kd1_navigation.egg-info/top_level.txt
+kd1_navigation.egg-info/zip-safe
+resource/kd1_navigation

@@ -1,0 +1,27 @@
+[0.071s] Invoking command in '/home/name/kd1_ws/build/kd1_cpp_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_cpp_nodes -- -j4 -l4
+[0.200s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.943s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[1.135s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.146s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.169s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.211s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.265s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.400s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.408s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.560s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.749s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[2.866s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.982s] -- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+[3.538s] -- Configuring done
+[3.602s] -- Generating done
+[3.621s] -- Build files have been written to: /home/name/kd1_ws/build/kd1_cpp_nodes
+[3.760s] [35m[1mConsolidate compiler generated dependencies of target emergency_stop_node[0m
+[3.880s] [ 50%] [32mBuilding CXX object CMakeFiles/emergency_stop_node.dir/src/emergency_stop_node.cpp.o[0m
+[5.722s] [01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Knav2_msgs/action/navigate_to_pose.hpp: No such file or directory
+[5.723s]     6 | #include [01;31m[K"nav2_msgs/action/navigate_to_pose.hpp"[m[K
+[5.723s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.724s] compilation terminated.
+[5.731s] gmake[2]: *** [CMakeFiles/emergency_stop_node.dir/build.make:76: CMakeFiles/emergency_stop_node.dir/src/emergency_stop_node.cpp.o] Error 1
+[5.733s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/emergency_stop_node.dir/all] Error 2
+[5.734s] gmake: *** [Makefile:146: all] Error 2
+[5.742s] Invoked command in '/home/name/kd1_ws/build/kd1_cpp_nodes' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_cpp_nodes -- -j4 -l4

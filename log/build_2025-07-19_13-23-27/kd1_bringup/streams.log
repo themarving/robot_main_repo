@@ -1,0 +1,23 @@
+[0.187s] Invoking command in '/home/name/kd1_ws/build/kd1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_bringup -- -j4 -l4
+[6.208s] Invoked command in '/home/name/kd1_ws/build/kd1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_bringup -- -j4 -l4
+[6.347s] Invoking command in '/home/name/kd1_ws/build/kd1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_bringup
+[6.425s] -- Install configuration: ""
+[6.432s] -- Execute custom install script
+[6.436s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/launch/kd1.launch.py
+[6.437s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/config/ekf.yaml
+[6.442s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/ament_index/resource_index/package_run_dependencies/kd1_bringup
+[6.445s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/ament_index/resource_index/parent_prefix_path/kd1_bringup
+[6.449s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/environment/ament_prefix_path.sh
+[6.468s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/environment/ament_prefix_path.dsv
+[6.474s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/environment/path.sh
+[6.477s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/environment/path.dsv
+[6.490s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/local_setup.bash
+[6.500s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/local_setup.sh
+[6.503s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/local_setup.zsh
+[6.504s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/local_setup.dsv
+[6.505s] -- Symlinking: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/package.dsv
+[6.708s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/ament_index/resource_index/packages/kd1_bringup
+[6.709s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/cmake/kd1_bringupConfig.cmake
+[6.714s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/cmake/kd1_bringupConfig-version.cmake
+[6.717s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/package.xml
+[6.742s] Invoked command in '/home/name/kd1_ws/build/kd1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_bringup

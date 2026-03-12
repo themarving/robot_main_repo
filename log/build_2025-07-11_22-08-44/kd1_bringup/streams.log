@@ -1,0 +1,24 @@
+[0.168s] Invoking command in '/home/name/kd1_ws/build/kd1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_bringup -- -j4 -l4
+[2.318s] Invoked command in '/home/name/kd1_ws/build/kd1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_bringup -- -j4 -l4
+[2.375s] Invoking command in '/home/name/kd1_ws/build/kd1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_bringup
+[2.418s] -- Install configuration: ""
+[2.426s] -- Execute custom install script
+[2.434s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/launch/kd1.launch.py
+[2.437s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/config/ekf.yaml
+[2.439s] -- Symlinking: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/config/fastdds_profile.xml
+[2.515s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/ament_index/resource_index/package_run_dependencies/kd1_bringup
+[2.519s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/ament_index/resource_index/parent_prefix_path/kd1_bringup
+[2.522s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/environment/ament_prefix_path.sh
+[2.525s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/environment/ament_prefix_path.dsv
+[2.532s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/environment/path.sh
+[2.534s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/environment/path.dsv
+[2.545s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/local_setup.bash
+[2.546s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/local_setup.sh
+[2.547s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/local_setup.zsh
+[2.547s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/local_setup.dsv
+[2.548s] -- Symlinking: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/package.dsv
+[2.586s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/ament_index/resource_index/packages/kd1_bringup
+[2.588s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/cmake/kd1_bringupConfig.cmake
+[2.590s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/cmake/kd1_bringupConfig-version.cmake
+[2.591s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/package.xml
+[2.609s] Invoked command in '/home/name/kd1_ws/build/kd1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_bringup

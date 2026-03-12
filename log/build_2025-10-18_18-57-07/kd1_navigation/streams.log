@@ -1,0 +1,23 @@
+[8.625s] Invoking command in '/home/name/kd1_ws/build/kd1_navigation': PYTHONPATH=/home/name/kd1_ws/build/kd1_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_navigation/build --no-deps symlink_data
+[12.717s] running develop
+[15.500s] running egg_info
+[15.503s] creating kd1_navigation.egg-info
+[15.504s] writing kd1_navigation.egg-info/PKG-INFO
+[15.505s] writing dependency_links to kd1_navigation.egg-info/dependency_links.txt
+[15.505s] writing entry points to kd1_navigation.egg-info/entry_points.txt
+[15.506s] writing requirements to kd1_navigation.egg-info/requires.txt
+[15.507s] writing top-level names to kd1_navigation.egg-info/top_level.txt
+[15.507s] writing manifest file 'kd1_navigation.egg-info/SOURCES.txt'
+[15.517s] reading manifest file 'kd1_navigation.egg-info/SOURCES.txt'
+[15.518s] writing manifest file 'kd1_navigation.egg-info/SOURCES.txt'
+[15.533s] running build_ext
+[15.534s] Creating /home/name/kd1_ws/install/kd1_navigation/lib/python3.10/site-packages/kd1-navigation.egg-link (link to .)
+[15.535s] 
+[15.541s] Installed /home/name/kd1_ws/build/kd1_navigation
+[15.542s] running symlink_data
+[15.544s] creating /home/name/kd1_ws/install/kd1_navigation/share/ament_index
+[15.545s] creating /home/name/kd1_ws/install/kd1_navigation/share/ament_index/resource_index
+[15.547s] creating /home/name/kd1_ws/install/kd1_navigation/share/ament_index/resource_index/packages
+[15.561s] symbolically linking /home/name/kd1_ws/build/kd1_navigation/resource/kd1_navigation -> /home/name/kd1_ws/install/kd1_navigation/share/ament_index/resource_index/packages
+[15.563s] symbolically linking /home/name/kd1_ws/build/kd1_navigation/package.xml -> /home/name/kd1_ws/install/kd1_navigation/share/kd1_navigation
+[15.775s] Invoked command in '/home/name/kd1_ws/build/kd1_navigation' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_navigation/build --no-deps symlink_data

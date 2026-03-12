@@ -1,0 +1,10 @@
+/home/name/kd1_ws/build/kd1_cpp_nodes/CMakeFiles/uninstall.dir
+/home/name/kd1_ws/build/kd1_cpp_nodes/CMakeFiles/kd1_cpp_nodes_uninstall.dir
+/home/name/kd1_ws/build/kd1_cpp_nodes/CMakeFiles/emergency_stop_node.dir
+/home/name/kd1_ws/build/kd1_cpp_nodes/CMakeFiles/test.dir
+/home/name/kd1_ws/build/kd1_cpp_nodes/CMakeFiles/edit_cache.dir
+/home/name/kd1_ws/build/kd1_cpp_nodes/CMakeFiles/rebuild_cache.dir
+/home/name/kd1_ws/build/kd1_cpp_nodes/CMakeFiles/list_install_components.dir
+/home/name/kd1_ws/build/kd1_cpp_nodes/CMakeFiles/install.dir
+/home/name/kd1_ws/build/kd1_cpp_nodes/CMakeFiles/install/local.dir
+/home/name/kd1_ws/build/kd1_cpp_nodes/CMakeFiles/install/strip.dir

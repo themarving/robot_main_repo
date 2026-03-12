@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing main_pkg_python.egg-info/PKG-INFO
+writing dependency_links to main_pkg_python.egg-info/dependency_links.txt
+writing entry points to main_pkg_python.egg-info/entry_points.txt
+writing requirements to main_pkg_python.egg-info/requires.txt
+writing top-level names to main_pkg_python.egg-info/top_level.txt
+reading manifest file 'main_pkg_python.egg-info/SOURCES.txt'
+writing manifest file 'main_pkg_python.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main-pkg-python.egg-link (link to .)
+Installing central_processing_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+Installing face_animation_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+Installing human_detection_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+
+Installed /home/name/kd1_ws/build/main_pkg_python
+running symlink_data
+symbolically linking /home/name/kd1_ws/build/main_pkg_python/resource/main_pkg_python -> /home/name/kd1_ws/install/main_pkg_python/share/ament_index/resource_index/packages
+symbolically linking /home/name/kd1_ws/build/main_pkg_python/package.xml -> /home/name/kd1_ws/install/main_pkg_python/share/main_pkg_python

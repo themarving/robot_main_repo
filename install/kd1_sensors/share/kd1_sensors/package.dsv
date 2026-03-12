@@ -1,0 +1,9 @@
+source;share/kd1_sensors/hook/pythonpath.ps1
+source;share/kd1_sensors/hook/pythonpath.dsv
+source;share/kd1_sensors/hook/pythonpath.sh
+source;share/kd1_sensors/hook/ament_prefix_path.ps1
+source;share/kd1_sensors/hook/ament_prefix_path.dsv
+source;share/kd1_sensors/hook/ament_prefix_path.sh
+source;../../build/kd1_sensors/share/kd1_sensors/hook/pythonpath_develop.ps1
+source;../../build/kd1_sensors/share/kd1_sensors/hook/pythonpath_develop.dsv
+source;../../build/kd1_sensors/share/kd1_sensors/hook/pythonpath_develop.sh

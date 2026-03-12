@@ -1,0 +1,24 @@
+[19.568s] Invoking command in '/home/name/kd1_ws/build/kd1_depth': PYTHONPATH=/home/name/kd1_ws/build/kd1_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_depth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_depth/build --no-deps symlink_data
+[28.245s] running develop
+[34.645s] running egg_info
+[34.646s] creating kd1_depth.egg-info
+[34.650s] writing kd1_depth.egg-info/PKG-INFO
+[34.655s] writing dependency_links to kd1_depth.egg-info/dependency_links.txt
+[34.658s] writing entry points to kd1_depth.egg-info/entry_points.txt
+[34.660s] writing requirements to kd1_depth.egg-info/requires.txt
+[34.667s] writing top-level names to kd1_depth.egg-info/top_level.txt
+[34.670s] writing manifest file 'kd1_depth.egg-info/SOURCES.txt'
+[34.684s] reading manifest file 'kd1_depth.egg-info/SOURCES.txt'
+[34.688s] writing manifest file 'kd1_depth.egg-info/SOURCES.txt'
+[34.702s] running build_ext
+[34.702s] Creating /home/name/kd1_ws/install/kd1_depth/lib/python3.10/site-packages/kd1-depth.egg-link (link to .)
+[34.721s] Installing depth_pointcloud2_node script to /home/name/kd1_ws/install/kd1_depth/lib/kd1_depth
+[34.726s] 
+[34.727s] Installed /home/name/kd1_ws/build/kd1_depth
+[34.730s] running symlink_data
+[34.731s] creating /home/name/kd1_ws/install/kd1_depth/share/ament_index
+[34.732s] creating /home/name/kd1_ws/install/kd1_depth/share/ament_index/resource_index
+[34.733s] creating /home/name/kd1_ws/install/kd1_depth/share/ament_index/resource_index/packages
+[34.745s] symbolically linking /home/name/kd1_ws/build/kd1_depth/resource/kd1_depth -> /home/name/kd1_ws/install/kd1_depth/share/ament_index/resource_index/packages
+[34.757s] symbolically linking /home/name/kd1_ws/build/kd1_depth/package.xml -> /home/name/kd1_ws/install/kd1_depth/share/kd1_depth
+[35.305s] Invoked command in '/home/name/kd1_ws/build/kd1_depth' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_depth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_depth/build --no-deps symlink_data

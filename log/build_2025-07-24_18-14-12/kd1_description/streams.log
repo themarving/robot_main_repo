@@ -1,0 +1,22 @@
+[0.077s] Invoking command in '/home/name/kd1_ws/build/kd1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_description -- -j4 -l4
+[0.890s] Invoked command in '/home/name/kd1_ws/build/kd1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_description -- -j4 -l4
+[0.912s] Invoking command in '/home/name/kd1_ws/build/kd1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_description
+[1.004s] -- Install configuration: ""
+[1.019s] -- Execute custom install script
+[1.022s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/urdf/kd1.urdf.xacro
+[1.034s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/ament_index/resource_index/package_run_dependencies/kd1_description
+[1.037s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/ament_index/resource_index/parent_prefix_path/kd1_description
+[1.040s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/environment/ament_prefix_path.sh
+[1.043s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/environment/ament_prefix_path.dsv
+[1.048s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/environment/path.sh
+[1.049s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/environment/path.dsv
+[1.051s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/local_setup.bash
+[1.060s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/local_setup.sh
+[1.061s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/local_setup.zsh
+[1.062s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/local_setup.dsv
+[1.066s] -- Symlinking: /home/name/kd1_ws/install/kd1_description/share/kd1_description/package.dsv
+[1.189s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/ament_index/resource_index/packages/kd1_description
+[1.190s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/cmake/kd1_descriptionConfig.cmake
+[1.191s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/cmake/kd1_descriptionConfig-version.cmake
+[1.200s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/package.xml
+[4.834s] Invoked command in '/home/name/kd1_ws/build/kd1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_description

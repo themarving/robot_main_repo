@@ -1,0 +1,33 @@
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:125:66:[m[K [01;31m[Kerror: [m[K‘[01m[KCancelGoals[m[K’ is not a member of ‘[01m[Krcl_interfaces::srv[m[K’
+  125 |     void on_nav2_cancel_done(rclcpp::Client<rcl_interfaces::srv::[01;31m[KCancelGoals[m[K>::SharedFuture future)
+      |                                                                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:125:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  125 |     void on_nav2_cancel_done(rclcpp::Client<rcl_interfaces::srv::CancelGoals[01;31m[K>[m[K::SharedFuture future)
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:125:93:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kfuture[m[K’
+  125 |     void on_nav2_cancel_done(rclcpp::Client<rcl_interfaces::srv::CancelGoals>::SharedFuture [01;31m[Kfuture[m[K)
+      |                                                                                             [01;31m[K^~~~~~[m[K
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:[m[K In member function ‘[01m[Kvoid EmergencyStopNode::cancel_nav2_goal()[m[K’:
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:109:26:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kstd::shared_future<std::shared_ptr<action_msgs::srv::CancelGoal_Response_<std::allocator<void> > > >[m[K’
+  109 |             cancel_future[01;31m[K->[m[Kadd_done_callback(
+      |                          [01;31m[K^~[m[K
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:110:28:[m[K [01;31m[Kerror: [m[K‘[01m[KCentralProcessingNode[m[K’ has not been declared
+  110 |                 std::bind(&[01;31m[KCentralProcessingNode[m[K::on_nav2_cancel_done, this, std::placeholders::_1));
+      |                            [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:[m[K In member function ‘[01m[Kvoid EmergencyStopNode::on_nav2_cancel_done(int)[m[K’:
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:129:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kfuture[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::future[m[K’?
+  129 |             auto response = [01;31m[Kfuture[m[K.get();
+      |                             [01;31m[K^~~~~~[m[K
+      |                             [32m[Kstd::future[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:1[m[K:
+[01m[K/usr/include/c++/11/future:124:11:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::future[m[K’ declared here
+  124 |     class [01;36m[Kfuture[m[K;
+      |           [01;36m[K^~~~~~[m[K
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:125:80:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KSharedFuture[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  125 |     void on_nav2_cancel_done([01;35m[Krclcpp::Client<rcl_interfaces::srv::CancelGoals>::SharedFuture[m[K future)
+      |                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/emergency_stop_node.dir/build.make:76: CMakeFiles/emergency_stop_node.dir/src/emergency_stop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/emergency_stop_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

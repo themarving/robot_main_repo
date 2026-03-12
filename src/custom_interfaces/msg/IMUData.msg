@@ -1,0 +1,6 @@
+float32 accelerometer_x
+float32 accelerometer_y
+float32 accelerometer_z
+float32 gyroscope_x
+float32 gyroscope_y
+float32 gyroscope_z

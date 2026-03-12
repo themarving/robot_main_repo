@@ -1,0 +1,2 @@
+int16 command_direction
+string command

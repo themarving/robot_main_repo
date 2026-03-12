@@ -1,0 +1,20 @@
+[6.772s] Invoking command in '/home/name/kd1_ws/build/kd1_utility_nodes': PYTHONPATH=/home/name/kd1_ws/build/kd1_utility_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_utility_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_utility_nodes/build --no-deps symlink_data
+[9.627s] running develop
+[11.534s] running egg_info
+[11.536s] writing kd1_utility_nodes.egg-info/PKG-INFO
+[11.538s] writing dependency_links to kd1_utility_nodes.egg-info/dependency_links.txt
+[11.539s] writing entry points to kd1_utility_nodes.egg-info/entry_points.txt
+[11.540s] writing requirements to kd1_utility_nodes.egg-info/requires.txt
+[11.541s] writing top-level names to kd1_utility_nodes.egg-info/top_level.txt
+[11.552s] reading manifest file 'kd1_utility_nodes.egg-info/SOURCES.txt'
+[11.558s] writing manifest file 'kd1_utility_nodes.egg-info/SOURCES.txt'
+[11.567s] running build_ext
+[11.568s] Creating /home/name/kd1_ws/install/kd1_utility_nodes/lib/python3.10/site-packages/kd1-utility-nodes.egg-link (link to .)
+[11.573s] Installing audio_playback_node script to /home/name/kd1_ws/install/kd1_utility_nodes/lib/kd1_utility_nodes
+[11.574s] Installing face_animation_node script to /home/name/kd1_ws/install/kd1_utility_nodes/lib/kd1_utility_nodes
+[11.575s] Installing imu_conversion_node script to /home/name/kd1_ws/install/kd1_utility_nodes/lib/kd1_utility_nodes
+[11.577s] Installing light_ring_node script to /home/name/kd1_ws/install/kd1_utility_nodes/lib/kd1_utility_nodes
+[11.579s] 
+[11.579s] Installed /home/name/kd1_ws/build/kd1_utility_nodes
+[11.581s] running symlink_data
+[11.776s] Invoked command in '/home/name/kd1_ws/build/kd1_utility_nodes' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_utility_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_utility_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_utility_nodes/build --no-deps symlink_data

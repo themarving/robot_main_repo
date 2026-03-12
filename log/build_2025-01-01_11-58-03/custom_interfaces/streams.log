@@ -1,0 +1,168 @@
+[0.110s] Invoking command in '/home/name/kd1_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake /home/name/kd1_ws/src/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/name/kd1_ws/install/custom_interfaces
+[0.232s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.932s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.019s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.037s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.056s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.305s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.908s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.937s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.407s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.541s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[5.675s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.675s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.676s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.823s] -- Configuring done
+[6.164s] -- Generating done
+[6.206s] -- Build files have been written to: /home/name/kd1_ws/build/custom_interfaces
+[6.241s] Invoked command in '/home/name/kd1_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake /home/name/kd1_ws/src/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/name/kd1_ws/install/custom_interfaces
+[6.270s] Invoking command in '/home/name/kd1_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/custom_interfaces -- -j4 -l4
+[6.534s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_c[0m
+[6.656s] [  0%] Built target ament_cmake_python_symlink_custom_interfaces
+[6.668s] [  2%] Built target custom_interfaces__cpp
+[6.726s] [ 12%] Built target custom_interfaces__rosidl_generator_c
+[6.787s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_cpp[0m
+[6.825s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[6.860s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_cpp[0m
+[7.005s] [ 23%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp
+[7.050s] [ 33%] Built target custom_interfaces__rosidl_typesupport_cpp
+[7.066s] [ 43%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.134s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c[0m
+[7.150s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c[0m
+[7.170s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c[0m
+[7.272s] [ 53%] Built target custom_interfaces__rosidl_typesupport_introspection_c
+[7.301s] [ 64%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c
+[7.325s] [ 74%] Built target custom_interfaces__rosidl_typesupport_c
+[7.460s] [ 74%] Built target custom_interfaces
+[7.592s] [ 76%] Built target custom_interfaces__py
+[7.681s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_generator_py[0m
+[7.835s] [ 84%] Built target custom_interfaces__rosidl_generator_py
+[7.947s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_c__pyext[0m
+[7.996s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[8.008s] [35m[1mConsolidate compiler generated dependencies of target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[8.147s] [ 89%] Built target custom_interfaces__rosidl_typesupport_c__pyext
+[8.184s] [ 94%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext
+[8.209s] [100%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[9.688s] running egg_info
+[9.692s] writing custom_interfaces.egg-info/PKG-INFO
+[9.694s] writing dependency_links to custom_interfaces.egg-info/dependency_links.txt
+[9.696s] writing top-level names to custom_interfaces.egg-info/top_level.txt
+[9.712s] reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[9.717s] writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'
+[9.929s] [100%] Built target ament_cmake_python_build_custom_interfaces_egg
+[10.008s] Invoked command in '/home/name/kd1_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/custom_interfaces -- -j4 -l4
+[10.820s] Invoking command in '/home/name/kd1_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/custom_interfaces
+[10.871s] -- Install configuration: ""
+[10.874s] -- Execute custom install script
+[10.877s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces
+[10.884s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__functions.h
+[10.886s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__struct.h
+[10.889s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__type_support.h
+[10.892s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h
+[10.894s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/tof_sensor_data.h
+[10.897s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/change_face_state.h
+[10.900s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__functions.h
+[10.902s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__struct.h
+[10.905s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__type_support.h
+[10.908s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh
+[10.910s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv
+[10.918s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__rosidl_typesupport_fastrtps_c.h
+[10.921s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.923s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__rosidl_typesupport_fastrtps_c.h
+[10.929s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__rosidl_typesupport_introspection_c.h
+[10.938s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.938s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__rosidl_typesupport_introspection_c.h
+[10.939s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__builder.hpp
+[10.940s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__struct.hpp
+[10.941s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__traits.hpp
+[10.944s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/tof_sensor_data.hpp
+[10.944s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/change_face_state.hpp
+[10.946s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__builder.hpp
+[10.947s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__struct.hpp
+[10.949s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__traits.hpp
+[10.955s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__rosidl_typesupport_fastrtps_cpp.hpp
+[10.958s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.958s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__rosidl_typesupport_fastrtps_cpp.hpp
+[10.961s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__rosidl_typesupport_introspection_cpp.hpp
+[10.964s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__rosidl_typesupport_introspection_cpp.hpp
+[10.965s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh
+[10.967s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv
+[10.969s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[10.970s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[10.971s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[10.972s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[10.978s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py
+[10.979s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c
+[10.980s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.981s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[10.982s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[10.983s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[10.984s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[10.985s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so
+[10.987s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py
+[10.988s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_tof_sensor_data.py
+[10.989s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_tof_sensor_data_s.c
+[10.990s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py
+[10.991s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_change_face_state.py
+[10.993s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_change_face_state_s.c
+[10.994s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[10.996s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[10.998s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[10.999s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/srv/ChangeFaceState.idl
+[11.000s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/msg/TOFSensorData.idl
+[11.001s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/srv/ChangeFaceState.srv
+[11.002s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/srv/ChangeFaceState_Request.msg
+[11.003s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/srv/ChangeFaceState_Response.msg
+[11.004s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/msg/TOFSensorData.msg
+[11.005s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces
+[11.007s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces
+[11.008s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh
+[11.009s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv
+[11.010s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh
+[11.011s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv
+[11.012s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash
+[11.013s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh
+[11.014s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh
+[11.015s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv
+[11.016s] -- Symlinking: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/package.dsv
+[11.059s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces
+[11.061s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake
+[11.062s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[11.063s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[11.064s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[11.065s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[11.068s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[11.069s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[11.072s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake
+[11.073s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake
+[11.074s] -- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/package.xml
+[11.075s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so
+[11.079s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so
+[11.083s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so
+[11.086s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so
+[11.090s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[11.094s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so
+[11.098s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so
+[11.299s] Listing '/home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...
+[11.302s] Compiling '/home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py'...
+[11.304s] Listing '/home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...
+[11.306s] Listing '/home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...
+[11.339s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so
+[11.342s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake
+[11.343s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake
+[11.344s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[11.345s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[11.347s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[11.347s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[11.349s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake
+[11.350s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[11.352s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake
+[11.353s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[11.354s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[11.356s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[11.356s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[11.362s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake
+[11.363s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[11.364s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake
+[11.365s] -- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[11.374s] Invoked command in '/home/name/kd1_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/custom_interfaces

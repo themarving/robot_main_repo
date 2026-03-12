@@ -1,0 +1,8 @@
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:[m[K In member function ‘[01m[Kvoid EmergencyStopNode::cancel_nav2_goal()[m[K’:
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:105:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp_action::Client<nav2_msgs::action::NavigateToPose>[m[K’ {aka ‘[01m[Kclass rclcpp_action::Client<nav2_msgs::action::NavigateToPose>[m[K’} has no member named ‘[01m[Kserver_is_ready[m[K’; did you mean ‘[01m[Kaction_server_is_ready[m[K’?
+  105 | cel_navto_client_ && cancel_navto_client_->[01;31m[Kserver_is_ready[m[K())
+      |                                            [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                            [32m[Kaction_server_is_ready[m[K
+gmake[2]: *** [CMakeFiles/emergency_stop_node.dir/build.make:76: CMakeFiles/emergency_stop_node.dir/src/emergency_stop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/emergency_stop_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

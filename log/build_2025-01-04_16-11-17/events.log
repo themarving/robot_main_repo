@@ -1,0 +1,279 @@
+[0.000000] (-) TimerEvent: {}
+[0.001086] (custom_interfaces) JobQueued: {'identifier': 'custom_interfaces', 'dependencies': OrderedDict()}
+[0.002089] (main_pkg_python) JobQueued: {'identifier': 'main_pkg_python', 'dependencies': OrderedDict()}
+[0.002711] (custom_interfaces) JobStarted: {'identifier': 'custom_interfaces'}
+[0.044007] (main_pkg_python) JobStarted: {'identifier': 'main_pkg_python'}
+[0.090607] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'cmake'}
+[0.093676] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'build'}
+[0.097008] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/name/kd1_ws/build/custom_interfaces', '--', '-j4', '-l4'], 'cwd': '/home/name/kd1_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'name'), ('SSH_CLIENT', '192.168.2.33 60617 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/name/kd1_ws/install/custom_interfaces/lib:/home/name/machine2_ws/install/machine2_hardware_interfaces/lib:/home/name/machine2_ws/install/machine2_controllers/lib:/home/name/machine2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/name/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/name'), ('OLDPWD', '/home/name'), ('TERM_PROGRAM_VERSION', '1.96.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-66d61a13-91fc-4ff6-8a5d-bd6443a91d49.sock'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/name/kd1_ws/install:/home/name/machine2_ws/install:/home/name/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'name'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/name/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/home/name/.local/bin:/opt/ros/humble/bin:/home/name/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/custom_interfaces:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/name/kd1_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.33 60617 192.168.2.116 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/name/kd1_ws/build/main_pkg_python:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:/home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/name/machine2_ws/install/machine2_servo_interface/lib/python3.10/site-packages:/home/name/machine2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/name/ros2_ws/install/main_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/name/kd1_ws/install/custom_interfaces:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces:/home/name/kd1_ws/install/main_pkg_python:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble')]), 'shell': False}
+[0.101993] (-) TimerEvent: {}
+[0.202711] (-) TimerEvent: {}
+[0.303736] (-) TimerEvent: {}
+[0.368988] (custom_interfaces) StdoutLine: {'line': b'[  2%] Built target custom_interfaces__cpp\n'}
+[0.383161] (custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target custom_interfaces__rosidl_generator_c\n'}
+[0.403912] (-) TimerEvent: {}
+[0.455590] (custom_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_symlink_custom_interfaces\n'}
+[0.504116] (-) TimerEvent: {}
+[0.536314] (custom_interfaces) StdoutLine: {'line': b'[ 23%] Built target custom_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.559847] (custom_interfaces) StdoutLine: {'line': b'[ 34%] Built target custom_interfaces__rosidl_typesupport_cpp\n'}
+[0.595627] (custom_interfaces) StdoutLine: {'line': b'[ 44%] Built target custom_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.604321] (-) TimerEvent: {}
+[0.646525] (custom_interfaces) StdoutLine: {'line': b'[ 55%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.704558] (-) TimerEvent: {}
+[0.709281] (custom_interfaces) StdoutLine: {'line': b'[ 65%] Built target custom_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.718213] (custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces__rosidl_typesupport_c\n'}
+[0.804809] (-) TimerEvent: {}
+[0.825689] (custom_interfaces) StdoutLine: {'line': b'[ 76%] Built target custom_interfaces\n'}
+[0.905013] (-) TimerEvent: {}
+[0.934850] (custom_interfaces) StdoutLine: {'line': b'[ 78%] Built target custom_interfaces__py\n'}
+[1.005241] (-) TimerEvent: {}
+[1.068466] (custom_interfaces) StdoutLine: {'line': b'[ 87%] Built target custom_interfaces__rosidl_generator_py\n'}
+[1.105434] (-) TimerEvent: {}
+[1.206633] (-) TimerEvent: {}
+[1.230257] (custom_interfaces) StdoutLine: {'line': b'[ 91%] Built target custom_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.270874] (custom_interfaces) StdoutLine: {'line': b'[ 95%] Built target custom_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.282451] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target custom_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.306821] (-) TimerEvent: {}
+[1.408191] (-) TimerEvent: {}
+[1.509517] (-) TimerEvent: {}
+[1.611089] (-) TimerEvent: {}
+[1.711925] (-) TimerEvent: {}
+[1.812819] (-) TimerEvent: {}
+[1.913755] (-) TimerEvent: {}
+[2.016522] (-) TimerEvent: {}
+[2.117755] (-) TimerEvent: {}
+[2.219475] (-) TimerEvent: {}
+[2.320417] (-) TimerEvent: {}
+[2.342266] (custom_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[2.346347] (custom_interfaces) StdoutLine: {'line': b'writing custom_interfaces.egg-info/PKG-INFO\n'}
+[2.349744] (custom_interfaces) StdoutLine: {'line': b'writing dependency_links to custom_interfaces.egg-info/dependency_links.txt\n'}
+[2.352774] (custom_interfaces) StdoutLine: {'line': b'writing top-level names to custom_interfaces.egg-info/top_level.txt\n'}
+[2.364768] (custom_interfaces) StdoutLine: {'line': b"reading manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[2.368255] (custom_interfaces) StdoutLine: {'line': b"writing manifest file 'custom_interfaces.egg-info/SOURCES.txt'\n"}
+[2.421073] (-) TimerEvent: {}
+[2.522441] (-) TimerEvent: {}
+[2.523763] (custom_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_custom_interfaces_egg\n'}
+[2.575281] (custom_interfaces) CommandEnded: {'returncode': 0}
+[2.622673] (-) TimerEvent: {}
+[2.723478] (-) TimerEvent: {}
+[2.825211] (-) TimerEvent: {}
+[2.926724] (-) TimerEvent: {}
+[3.027612] (-) TimerEvent: {}
+[3.129445] (-) TimerEvent: {}
+[3.231956] (-) TimerEvent: {}
+[3.333501] (-) TimerEvent: {}
+[3.391475] (custom_interfaces) JobProgress: {'identifier': 'custom_interfaces', 'progress': 'install'}
+[3.433771] (-) TimerEvent: {}
+[3.443578] (custom_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/name/kd1_ws/build/custom_interfaces'], 'cwd': '/home/name/kd1_ws/build/custom_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'name'), ('SSH_CLIENT', '192.168.2.33 60617 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/name/kd1_ws/install/custom_interfaces/lib:/home/name/machine2_ws/install/machine2_hardware_interfaces/lib:/home/name/machine2_ws/install/machine2_controllers/lib:/home/name/machine2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/name/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/name'), ('OLDPWD', '/home/name'), ('TERM_PROGRAM_VERSION', '1.96.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-66d61a13-91fc-4ff6-8a5d-bd6443a91d49.sock'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/name/kd1_ws/install:/home/name/machine2_ws/install:/home/name/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'name'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/name/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/home/name/.local/bin:/opt/ros/humble/bin:/home/name/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/custom_interfaces:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/name/kd1_ws/build/custom_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.33 60617 192.168.2.116 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/name/kd1_ws/build/main_pkg_python:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:/home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/name/machine2_ws/install/machine2_servo_interface/lib/python3.10/site-packages:/home/name/machine2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/name/ros2_ws/install/main_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/name/kd1_ws/install/custom_interfaces:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces:/home/name/kd1_ws/install/main_pkg_python:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble')]), 'shell': False}
+[3.482287] (custom_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.485574] (custom_interfaces) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.487900] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/ament_index/resource_index/rosidl_interfaces/custom_interfaces\n'}
+[3.492093] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/detected_person_frame_offset__functions.h\n'}
+[3.494604] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/detected_person_frame_offset__struct.h\n'}
+[3.497208] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/detected_person_frame_offset__type_support.h\n'}
+[3.499574] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__functions.h\n'}
+[3.502129] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__struct.h\n'}
+[3.507381] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__type_support.h\n'}
+[3.508104] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detected_person_frame_offset.h\n'}
+[3.513936] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.514709] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/tof_sensor_data.h\n'}
+[3.515296] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/change_face_state.h\n'}
+[3.515976] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__functions.h\n'}
+[3.522386] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__struct.h\n'}
+[3.523058] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__type_support.h\n'}
+[3.523609] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.sh\n'}
+[3.527434] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/library_path.dsv\n'}
+[3.528504] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/detected_person_frame_offset__rosidl_typesupport_fastrtps_c.h\n'}
+[3.529033] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[3.529630] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.534525] (-) TimerEvent: {}
+[3.535126] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__rosidl_typesupport_fastrtps_c.h\n'}
+[3.537908] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/detected_person_frame_offset__rosidl_typesupport_introspection_c.h\n'}
+[3.540909] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__rosidl_typesupport_introspection_c.h\n'}
+[3.544706] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.545723] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__rosidl_typesupport_introspection_c.h\n'}
+[3.549287] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/detected_person_frame_offset__builder.hpp\n'}
+[3.549896] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/detected_person_frame_offset__struct.hpp\n'}
+[3.550416] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/detected_person_frame_offset__traits.hpp\n'}
+[3.550959] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__builder.hpp\n'}
+[3.551478] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__struct.hpp\n'}
+[3.556582] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__traits.hpp\n'}
+[3.557161] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detected_person_frame_offset.hpp\n'}
+[3.557701] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/tof_sensor_data.hpp\n'}
+[3.558217] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/change_face_state.hpp\n'}
+[3.564217] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__builder.hpp\n'}
+[3.564923] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__struct.hpp\n'}
+[3.565528] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__traits.hpp\n'}
+[3.566062] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/detected_person_frame_offset__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.566684] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.567225] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.573431] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.574368] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/detected_person_frame_offset__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.574859] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/msg/detail/tof_sensor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.575391] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/include/custom_interfaces/custom_interfaces/srv/detail/change_face_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.576375] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.sh\n'}
+[3.577225] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/pythonpath.dsv\n'}
+[3.580390] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[3.581192] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[3.583525] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[3.586135] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[3.586767] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/__init__.py\n'}
+[3.589932] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[3.590542] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.593391] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/_custom_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.594040] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.594777] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.595302] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.600216] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/libcustom_interfaces__rosidl_generator_py.so\n'}
+[3.600784] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/__init__.py\n'}
+[3.603917] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_detected_person_frame_offset.py\n'}
+[3.604485] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_detected_person_frame_offset_s.c\n'}
+[3.607553] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_tof_sensor_data.py\n'}
+[3.608198] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg/_tof_sensor_data_s.c\n'}
+[3.608860] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/__init__.py\n'}
+[3.609425] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_change_face_state.py\n'}
+[3.610199] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv/_change_face_state_s.c\n'}
+[3.610837] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.618160] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.618836] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/custom_interfaces_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.619490] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/srv/ChangeFaceState.idl\n'}
+[3.623408] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/msg/TOFSensorData.idl\n'}
+[3.626106] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/msg/DetectedPersonFrameOffset.idl\n'}
+[3.626717] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/srv/ChangeFaceState.srv\n'}
+[3.627197] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/srv/ChangeFaceState_Request.msg\n'}
+[3.627633] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/srv/ChangeFaceState_Response.msg\n'}
+[3.629554] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/msg/TOFSensorData.msg\n'}
+[3.630018] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/msg/DetectedPersonFrameOffset.msg\n'}
+[3.630497] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/ament_index/resource_index/package_run_dependencies/custom_interfaces\n'}
+[3.630986] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/ament_index/resource_index/parent_prefix_path/custom_interfaces\n'}
+[3.631491] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.sh\n'}
+[3.631996] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/ament_prefix_path.dsv\n'}
+[3.632453] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/path.sh\n'}
+[3.632918] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/environment/path.dsv\n'}
+[3.633465] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/local_setup.bash\n'}
+[3.633954] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/local_setup.sh\n'}
+[3.634475] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/local_setup.zsh\n'}
+[3.634935] (-) TimerEvent: {}
+[3.636552] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/local_setup.dsv\n'}
+[3.637265] (custom_interfaces) StdoutLine: {'line': b'-- Symlinking: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/package.dsv\n'}
+[3.684238] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/ament_index/resource_index/packages/custom_interfaces\n'}
+[3.686525] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[3.689837] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.692713] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.693377] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.693912] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.694450] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.695902] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.696635] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig.cmake\n'}
+[3.697201] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfacesConfig-version.cmake\n'}
+[3.703951] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date symlink: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/package.xml\n'}
+[3.708202] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_c.so\n'}
+[3.708842] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[3.709384] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[3.709870] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_c.so\n'}
+[3.710589] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.712679] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[3.719810] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_typesupport_cpp.so\n'}
+[3.735140] (-) TimerEvent: {}
+[3.836066] (-) TimerEvent: {}
+[3.923491] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces'...\n"}
+[3.925227] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/msg'...\n"}
+[3.926716] (custom_interfaces) StdoutLine: {'line': b"Listing '/home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages/custom_interfaces/srv'...\n"}
+[3.936400] (-) TimerEvent: {}
+[3.957710] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/lib/libcustom_interfaces__rosidl_generator_py.so\n'}
+[3.959891] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport.cmake\n'}
+[3.961143] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.962570] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.965099] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.966268] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.969166] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.976309] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[3.977019] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.977754] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_cppExport.cmake\n'}
+[3.978598] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.979742] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.985145] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.986780] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.987473] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[3.988615] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/custom_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.989320] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport.cmake\n'}
+[3.989969] (custom_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/cmake/export_custom_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.004009] (custom_interfaces) CommandEnded: {'returncode': 0}
+[4.036520] (-) TimerEvent: {}
+[4.137646] (-) TimerEvent: {}
+[4.239497] (-) TimerEvent: {}
+[4.340896] (-) TimerEvent: {}
+[4.444003] (-) TimerEvent: {}
+[4.546169] (-) TimerEvent: {}
+[4.608822] (main_pkg_python) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/name/kd1_ws/build/main_pkg_python/build', '--no-deps', 'symlink_data'], 'cwd': '/home/name/kd1_ws/build/main_pkg_python', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'name', 'SSH_CLIENT': '192.168.2.33 60617 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/name/kd1_ws/install/custom_interfaces/lib:/home/name/machine2_ws/install/machine2_hardware_interfaces/lib:/home/name/machine2_ws/install/machine2_controllers/lib:/home/name/machine2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/name/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/name', 'OLDPWD': '/home/name', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-66d61a13-91fc-4ff6-8a5d-bd6443a91d49.sock', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/name/kd1_ws/install:/home/name/machine2_ws/install:/home/name/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'name', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '4', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/name/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/home/name/.local/bin:/opt/ros/humble/bin:/home/name/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/custom_interfaces:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'PWD': '/home/name/kd1_ws/build/main_pkg_python', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.33 60617 192.168.2.116 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/name/kd1_ws/build/main_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:/home/name/kd1_ws/build/main_pkg_python:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:/home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/name/machine2_ws/install/machine2_servo_interface/lib/python3.10/site-packages:/home/name/machine2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/name/ros2_ws/install/main_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/name/kd1_ws/install/custom_interfaces:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces'}, 'shell': False}
+[4.646406] (-) TimerEvent: {}
+[4.751859] (-) TimerEvent: {}
+[4.852671] (-) TimerEvent: {}
+[4.955857] (-) TimerEvent: {}
+[5.056628] (-) TimerEvent: {}
+[5.150896] (custom_interfaces) JobEnded: {'identifier': 'custom_interfaces', 'rc': 0}
+[5.157494] (-) TimerEvent: {}
+[5.258510] (-) TimerEvent: {}
+[5.359325] (-) TimerEvent: {}
+[5.460141] (-) TimerEvent: {}
+[5.560995] (-) TimerEvent: {}
+[5.661790] (-) TimerEvent: {}
+[5.762608] (-) TimerEvent: {}
+[5.863474] (-) TimerEvent: {}
+[5.964323] (-) TimerEvent: {}
+[6.065256] (-) TimerEvent: {}
+[6.166289] (-) TimerEvent: {}
+[6.267322] (-) TimerEvent: {}
+[6.368132] (-) TimerEvent: {}
+[6.468995] (-) TimerEvent: {}
+[6.569802] (-) TimerEvent: {}
+[6.670785] (-) TimerEvent: {}
+[6.683475] (main_pkg_python) StdoutLine: {'line': b'running develop\n'}
+[6.685201] (main_pkg_python) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.\n'}
+[6.686007] (main_pkg_python) StderrLine: {'line': b'  warnings.warn(\n'}
+[6.771029] (-) TimerEvent: {}
+[6.872002] (-) TimerEvent: {}
+[6.972798] (-) TimerEvent: {}
+[7.073551] (-) TimerEvent: {}
+[7.174342] (-) TimerEvent: {}
+[7.275120] (-) TimerEvent: {}
+[7.375936] (-) TimerEvent: {}
+[7.476857] (-) TimerEvent: {}
+[7.577939] (-) TimerEvent: {}
+[7.679491] (-) TimerEvent: {}
+[7.780398] (-) TimerEvent: {}
+[7.881410] (-) TimerEvent: {}
+[7.982197] (-) TimerEvent: {}
+[8.083260] (-) TimerEvent: {}
+[8.184941] (-) TimerEvent: {}
+[8.285891] (-) TimerEvent: {}
+[8.369397] (main_pkg_python) StdoutLine: {'line': b'running egg_info\n'}
+[8.370581] (main_pkg_python) StdoutLine: {'line': b'writing main_pkg_python.egg-info/PKG-INFO\n'}
+[8.372319] (main_pkg_python) StdoutLine: {'line': b'writing dependency_links to main_pkg_python.egg-info/dependency_links.txt\n'}
+[8.373632] (main_pkg_python) StdoutLine: {'line': b'writing entry points to main_pkg_python.egg-info/entry_points.txt\n'}
+[8.374911] (main_pkg_python) StdoutLine: {'line': b'writing requirements to main_pkg_python.egg-info/requires.txt\n'}
+[8.376056] (main_pkg_python) StdoutLine: {'line': b'writing top-level names to main_pkg_python.egg-info/top_level.txt\n'}
+[8.386094] (-) TimerEvent: {}
+[8.387132] (main_pkg_python) StdoutLine: {'line': b"reading manifest file 'main_pkg_python.egg-info/SOURCES.txt'\n"}
+[8.392337] (main_pkg_python) StdoutLine: {'line': b"writing manifest file 'main_pkg_python.egg-info/SOURCES.txt'\n"}
+[8.400463] (main_pkg_python) StdoutLine: {'line': b'running build_ext\n'}
+[8.401521] (main_pkg_python) StdoutLine: {'line': b'Creating /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main-pkg-python.egg-link (link to .)\n'}
+[8.406744] (main_pkg_python) StdoutLine: {'line': b'Installing audio_direction_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python\n'}
+[8.408024] (main_pkg_python) StdoutLine: {'line': b'Installing audio_playback_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python\n'}
+[8.409136] (main_pkg_python) StdoutLine: {'line': b'Installing central_processing_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python\n'}
+[8.410278] (main_pkg_python) StdoutLine: {'line': b'Installing depth_data_processing_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python\n'}
+[8.411439] (main_pkg_python) StdoutLine: {'line': b'Installing face_animation_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python\n'}
+[8.413086] (main_pkg_python) StdoutLine: {'line': b'Installing human_detection_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python\n'}
+[8.414065] (main_pkg_python) StdoutLine: {'line': b'Installing imu_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python\n'}
+[8.415013] (main_pkg_python) StdoutLine: {'line': b'Installing light_ring_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python\n'}
+[8.415992] (main_pkg_python) StdoutLine: {'line': b'Installing motor_driver_comms_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python\n'}
+[8.417040] (main_pkg_python) StdoutLine: {'line': b'Installing tof_sensors_comms_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python\n'}
+[8.418150] (main_pkg_python) StdoutLine: {'line': b'Installing voice_recognition_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python\n'}
+[8.419902] (main_pkg_python) StdoutLine: {'line': b'\n'}
+[8.431154] (main_pkg_python) StdoutLine: {'line': b'Installed /home/name/kd1_ws/build/main_pkg_python\n'}
+[8.433261] (main_pkg_python) StdoutLine: {'line': b'running symlink_data\n'}
+[8.486453] (-) TimerEvent: {}
+[8.587761] (-) TimerEvent: {}
+[8.598401] (main_pkg_python) CommandEnded: {'returncode': 0}
+[8.665420] (main_pkg_python) JobEnded: {'identifier': 'main_pkg_python', 'rc': 0}
+[8.669967] (-) EventReactorShutdown: {}

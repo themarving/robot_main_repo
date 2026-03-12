@@ -1,0 +1,3 @@
+string face_state
+---
+bool face_state_changed

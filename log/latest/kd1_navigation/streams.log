@@ -1,0 +1,18 @@
+[17.723s] Invoking command in '/home/name/kd1_ws/build/kd1_navigation': PYTHONPATH=/home/name/kd1_ws/build/kd1_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_navigation/build --no-deps symlink_data
+[29.722s] running develop
+[36.068s] running egg_info
+[36.076s] writing kd1_navigation.egg-info/PKG-INFO
+[36.080s] writing dependency_links to kd1_navigation.egg-info/dependency_links.txt
+[36.085s] writing entry points to kd1_navigation.egg-info/entry_points.txt
+[36.097s] writing requirements to kd1_navigation.egg-info/requires.txt
+[36.106s] writing top-level names to kd1_navigation.egg-info/top_level.txt
+[36.110s] reading manifest file 'kd1_navigation.egg-info/SOURCES.txt'
+[36.118s] writing manifest file 'kd1_navigation.egg-info/SOURCES.txt'
+[36.122s] running build_ext
+[36.129s] Creating /home/name/kd1_ws/install/kd1_navigation/lib/python3.10/site-packages/kd1-navigation.egg-link (link to .)
+[36.136s] Installing custom_costmap_node script to /home/name/kd1_ws/install/kd1_navigation/lib/kd1_navigation
+[36.141s] Installing navigation_node script to /home/name/kd1_ws/install/kd1_navigation/lib/kd1_navigation
+[36.148s] 
+[36.152s] Installed /home/name/kd1_ws/build/kd1_navigation
+[36.169s] running symlink_data
+[36.400s] Invoked command in '/home/name/kd1_ws/build/kd1_navigation' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_navigation/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_navigation/build --no-deps symlink_data

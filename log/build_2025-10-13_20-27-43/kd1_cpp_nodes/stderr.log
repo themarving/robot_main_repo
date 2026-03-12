@@ -1,0 +1,11 @@
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:[m[K In constructor ‘[01m[KEmergencyStopNode::EmergencyStopNode()[m[K’:
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcancel_navto_client_[m[K’ was not declared in this scope
+   28 |         [01;31m[Kcancel_navto_client_[m[K = rclcpp_action::create_client<NavigateToPose>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:[m[K In member function ‘[01m[Kvoid EmergencyStopNode::cancel_nav2_goal()[m[K’:
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:105:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcancel_navto_client_[m[K’ was not declared in this scope
+  105 |         if ([01;31m[Kcancel_navto_client_[m[K && cancel_navto_client_->server_is_ready())
+      |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/emergency_stop_node.dir/build.make:76: CMakeFiles/emergency_stop_node.dir/src/emergency_stop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/emergency_stop_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

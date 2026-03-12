@@ -1,0 +1,20 @@
+[17.796s] Invoking command in '/home/name/kd1_ws/build/kd1_sensors': PYTHONPATH=/home/name/kd1_ws/build/kd1_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_sensors/build --no-deps symlink_data
+[25.850s] running develop
+[30.627s] running egg_info
+[30.628s] writing kd1_sensors.egg-info/PKG-INFO
+[30.643s] writing dependency_links to kd1_sensors.egg-info/dependency_links.txt
+[30.644s] writing entry points to kd1_sensors.egg-info/entry_points.txt
+[30.644s] writing requirements to kd1_sensors.egg-info/requires.txt
+[30.645s] writing top-level names to kd1_sensors.egg-info/top_level.txt
+[30.656s] reading manifest file 'kd1_sensors.egg-info/SOURCES.txt'
+[30.657s] writing manifest file 'kd1_sensors.egg-info/SOURCES.txt'
+[30.666s] running build_ext
+[30.667s] Creating /home/name/kd1_ws/install/kd1_sensors/lib/python3.10/site-packages/kd1-sensors.egg-link (link to .)
+[30.674s] Installing audio_direction_node script to /home/name/kd1_ws/install/kd1_sensors/lib/kd1_sensors
+[30.676s] Installing oak_depthai_node script to /home/name/kd1_ws/install/kd1_sensors/lib/kd1_sensors
+[30.677s] Installing tof_sensors_alert_node script to /home/name/kd1_ws/install/kd1_sensors/lib/kd1_sensors
+[30.678s] Installing voice_recognition_node script to /home/name/kd1_ws/install/kd1_sensors/lib/kd1_sensors
+[30.681s] 
+[30.681s] Installed /home/name/kd1_ws/build/kd1_sensors
+[30.683s] running symlink_data
+[30.905s] Invoked command in '/home/name/kd1_ws/build/kd1_sensors' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_sensors/build --no-deps symlink_data

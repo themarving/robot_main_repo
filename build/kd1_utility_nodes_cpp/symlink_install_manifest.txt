@@ -1,0 +1,16 @@
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/lib/kd1_utility_nodes_cpp/face_animation_node_cpp
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/ament_index/resource_index/package_run_dependencies/kd1_utility_nodes_cpp
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/ament_index/resource_index/parent_prefix_path/kd1_utility_nodes_cpp
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/environment/ament_prefix_path.sh
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/environment/ament_prefix_path.dsv
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/environment/path.sh
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/environment/path.dsv
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/local_setup.bash
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/local_setup.sh
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/local_setup.zsh
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/local_setup.dsv
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/package.dsv
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/ament_index/resource_index/packages/kd1_utility_nodes_cpp
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/cmake/kd1_utility_nodes_cppConfig.cmake
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/cmake/kd1_utility_nodes_cppConfig-version.cmake
+/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/package.xml

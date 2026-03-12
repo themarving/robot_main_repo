@@ -1,0 +1,8 @@
+/home/name/kd1_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/ChangeFaceState.idl
+/home/name/kd1_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/TOFSensorData.idl
+/home/name/kd1_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/DetectedPersonFrameOffset.idl
+/home/name/kd1_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/IMUData.idl
+/home/name/kd1_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/DetectedVoiceCommand.idl
+/home/name/kd1_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/MoveRobotCommand.idl
+/home/name/kd1_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:msg/CustomNavigationGoal.idl
+/home/name/kd1_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces:srv/SetCustomNavigationGoal.idl

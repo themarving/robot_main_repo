@@ -1,0 +1,22 @@
+[2.577s] Invoking command in '/home/name/kd1_ws/build/kd1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_navigation:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_description -- -j4 -l4
+[3.238s] Invoked command in '/home/name/kd1_ws/build/kd1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_navigation:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_description -- -j4 -l4
+[3.251s] Invoking command in '/home/name/kd1_ws/build/kd1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_navigation:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_description
+[3.327s] -- Install configuration: ""
+[3.334s] -- Execute custom install script
+[3.338s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/urdf/kd1.urdf.xacro
+[3.350s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/ament_index/resource_index/package_run_dependencies/kd1_description
+[3.353s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/ament_index/resource_index/parent_prefix_path/kd1_description
+[3.356s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/environment/ament_prefix_path.sh
+[3.358s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/environment/ament_prefix_path.dsv
+[3.362s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/environment/path.sh
+[3.366s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/environment/path.dsv
+[3.374s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/local_setup.bash
+[3.385s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/local_setup.sh
+[3.393s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/local_setup.zsh
+[3.411s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/local_setup.dsv
+[3.417s] -- Symlinking: /home/name/kd1_ws/install/kd1_description/share/kd1_description/package.dsv
+[3.533s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/ament_index/resource_index/packages/kd1_description
+[3.533s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/cmake/kd1_descriptionConfig.cmake
+[3.534s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/cmake/kd1_descriptionConfig-version.cmake
+[3.535s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_description/share/kd1_description/package.xml
+[6.312s] Invoked command in '/home/name/kd1_ws/build/kd1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_navigation:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_description

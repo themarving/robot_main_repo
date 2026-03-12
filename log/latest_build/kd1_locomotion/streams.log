@@ -1,0 +1,22 @@
+[25.286s] Invoking command in '/home/name/kd1_ws/build/kd1_locomotion': PYTHONPATH=/home/name/kd1_ws/build/kd1_locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_locomotion/build --no-deps symlink_data
+[32.388s] running develop
+[40.273s] running egg_info
+[40.284s] writing kd1_locomotion.egg-info/PKG-INFO
+[40.290s] writing dependency_links to kd1_locomotion.egg-info/dependency_links.txt
+[40.294s] writing entry points to kd1_locomotion.egg-info/entry_points.txt
+[40.297s] writing requirements to kd1_locomotion.egg-info/requires.txt
+[40.306s] writing top-level names to kd1_locomotion.egg-info/top_level.txt
+[40.313s] reading manifest file 'kd1_locomotion.egg-info/SOURCES.txt'
+[40.318s] writing manifest file 'kd1_locomotion.egg-info/SOURCES.txt'
+[40.367s] running build_ext
+[40.369s] Creating /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1-locomotion.egg-link (link to .)
+[40.369s] Installing emergency_stop_node script to /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion
+[40.373s] Installing motor_driver_comms_node script to /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion
+[40.389s] Installing moving_robot_node script to /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion
+[40.391s] Installing teleop_node script to /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion
+[40.392s] Installing wheel_encoder_tof_node script to /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion
+[40.393s] Installing wheel_odometry_node script to /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion
+[40.394s] 
+[40.396s] Installed /home/name/kd1_ws/build/kd1_locomotion
+[40.397s] running symlink_data
+[42.972s] Invoked command in '/home/name/kd1_ws/build/kd1_locomotion' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_locomotion/build --no-deps symlink_data

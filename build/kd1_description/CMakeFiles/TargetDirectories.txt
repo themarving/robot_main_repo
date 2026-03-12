@@ -1,0 +1,9 @@
+/home/name/kd1_ws/build/kd1_description/CMakeFiles/uninstall.dir
+/home/name/kd1_ws/build/kd1_description/CMakeFiles/kd1_description_uninstall.dir
+/home/name/kd1_ws/build/kd1_description/CMakeFiles/test.dir
+/home/name/kd1_ws/build/kd1_description/CMakeFiles/edit_cache.dir
+/home/name/kd1_ws/build/kd1_description/CMakeFiles/rebuild_cache.dir
+/home/name/kd1_ws/build/kd1_description/CMakeFiles/list_install_components.dir
+/home/name/kd1_ws/build/kd1_description/CMakeFiles/install.dir
+/home/name/kd1_ws/build/kd1_description/CMakeFiles/install/local.dir
+/home/name/kd1_ws/build/kd1_description/CMakeFiles/install/strip.dir

@@ -1,0 +1,70 @@
+[0.152s] Invoking command in '/home/name/kd1_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake /home/name/kd1_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/name/kd1_ws/install/custom_interfaces
+[0.278s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.147s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.237s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.283s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.615s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.570s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[4.643s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.176s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.315s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[6.453s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[6.454s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[6.454s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[6.610s] -- Configuring done
+[6.942s] -- Generating done
+[7.026s] -- Build files have been written to: /home/name/kd1_ws/build/custom_interfaces
+[7.077s] Invoked command in '/home/name/kd1_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake /home/name/kd1_ws/src/custom_interfaces -DCMAKE_INSTALL_PREFIX=/home/name/kd1_ws/install/custom_interfaces
+[7.080s] Invoking command in '/home/name/kd1_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/custom_interfaces -- -j4 -l4
+[7.279s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.993s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.024s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[8.036s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.049s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.262s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.392s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[8.393s]   configure_file input location
+[8.393s] 
+[8.394s]     /home/name/kd1_ws/src/custom_interfaces/msg
+[8.394s] 
+[8.394s]   is a directory but a file was expected.
+[8.395s] Call Stack (most recent call first):
+[8.395s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:104 (stamp)
+[8.396s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[8.396s] 
+[8.396s] [0m
+[9.490s] [31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):
+[9.490s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[9.493s]   custom_interfaces --arguments-file
+[9.494s]   /home/name/kd1_ws/build/custom_interfaces/rosidl_adapter__arguments__custom_interfaces.json
+[9.495s]   --output-dir
+[9.496s]   /home/name/kd1_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces
+[9.496s]   --output-file
+[9.496s]   /home/name/kd1_ws/build/custom_interfaces/rosidl_adapter/custom_interfaces.idls)
+[9.497s]   returned error code 1:
+[9.497s] 
+[9.498s]   Traceback (most recent call last):
+[9.498s] 
+[9.499s]     File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+[9.499s]       return _run_code(code, main_globals, None,
+[9.500s]     File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+[9.500s]       exec(code, run_globals)
+[9.501s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[9.501s]       sys.exit(main())
+[9.502s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main
+[9.502s]       abs_idl_file = convert_to_idl(
+[9.502s]     File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 32, in convert_to_idl
+[9.503s]       assert False, f"Unsupported interface type '{interface_file.suffix}'"
+[9.503s] 
+[9.504s]   AssertionError: Unsupported interface type ''
+[9.504s] 
+[9.504s] Call Stack (most recent call first):
+[9.505s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[9.505s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[9.505s] 
+[9.506s] [0m
+[9.506s] -- Configuring incomplete, errors occurred!
+[9.506s] See also "/home/name/kd1_ws/build/custom_interfaces/CMakeFiles/CMakeOutput.log".
+[9.541s] gmake: *** [Makefile:1395: cmake_check_build_system] Error 1
+[9.550s] Invoked command in '/home/name/kd1_ws/build/custom_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/custom_interfaces -- -j4 -l4

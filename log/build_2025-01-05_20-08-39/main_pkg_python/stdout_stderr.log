@@ -1,0 +1,28 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing main_pkg_python.egg-info/PKG-INFO
+writing dependency_links to main_pkg_python.egg-info/dependency_links.txt
+writing entry points to main_pkg_python.egg-info/entry_points.txt
+writing requirements to main_pkg_python.egg-info/requires.txt
+writing top-level names to main_pkg_python.egg-info/top_level.txt
+reading manifest file 'main_pkg_python.egg-info/SOURCES.txt'
+writing manifest file 'main_pkg_python.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main-pkg-python.egg-link (link to .)
+Installing audio_direction_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+Installing audio_playback_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+Installing central_processing_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+Installing depth_data_processing_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+Installing face_animation_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+Installing human_detection_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+Installing imu_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+Installing light_ring_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+Installing motor_driver_comms_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+Installing oak_depthai_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+Installing tof_sensors_comms_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+Installing voice_recognition_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+
+Installed /home/name/kd1_ws/build/main_pkg_python
+running symlink_data

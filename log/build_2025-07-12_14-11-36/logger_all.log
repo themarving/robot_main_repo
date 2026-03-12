@@ -1,0 +1,594 @@
+[0.789s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.790s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffac585480>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffac584f40>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffac584f40>>, mixin_verb=('build',))
+[2.128s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.129s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.130s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/name/kd1_ws'
+[2.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.132s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.242s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.243s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.244s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.245s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.246s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.247s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore'
+[2.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ignore_ament_install'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_pkg']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_pkg'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['colcon_meta']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'colcon_meta'
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extensions ['ros']
+[2.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_interfaces) by extension 'ros'
+[2.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_interfaces' with type 'ros.ament_cmake' and name 'custom_interfaces'
+[2.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_bringup) by extensions ['ignore', 'ignore_ament_install']
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_bringup) by extension 'ignore'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_bringup) by extension 'ignore_ament_install'
+[2.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_bringup) by extensions ['colcon_pkg']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_bringup) by extension 'colcon_pkg'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_bringup) by extensions ['colcon_meta']
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_bringup) by extension 'colcon_meta'
+[2.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_bringup) by extensions ['ros']
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_bringup) by extension 'ros'
+[2.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kd1_bringup' with type 'ros.ament_cmake' and name 'kd1_bringup'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_central_processing) by extensions ['ignore', 'ignore_ament_install']
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_central_processing) by extension 'ignore'
+[2.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_central_processing) by extension 'ignore_ament_install'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_central_processing) by extensions ['colcon_pkg']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_central_processing) by extension 'colcon_pkg'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_central_processing) by extensions ['colcon_meta']
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_central_processing) by extension 'colcon_meta'
+[2.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_central_processing) by extensions ['ros']
+[2.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_central_processing) by extension 'ros'
+[2.275s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kd1_central_processing' with type 'ros.ament_python' and name 'kd1_central_processing'
+[2.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_description) by extensions ['ignore', 'ignore_ament_install']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_description) by extension 'ignore'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_description) by extension 'ignore_ament_install'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_description) by extensions ['colcon_pkg']
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_description) by extension 'colcon_pkg'
+[2.276s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_description) by extensions ['colcon_meta']
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_description) by extension 'colcon_meta'
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_description) by extensions ['ros']
+[2.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_description) by extension 'ros'
+[2.280s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kd1_description' with type 'ros.ament_cmake' and name 'kd1_description'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_locomotion) by extensions ['ignore', 'ignore_ament_install']
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_locomotion) by extension 'ignore'
+[2.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_locomotion) by extension 'ignore_ament_install'
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_locomotion) by extensions ['colcon_pkg']
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_locomotion) by extension 'colcon_pkg'
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_locomotion) by extensions ['colcon_meta']
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_locomotion) by extension 'colcon_meta'
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_locomotion) by extensions ['ros']
+[2.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_locomotion) by extension 'ros'
+[2.285s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kd1_locomotion' with type 'ros.ament_python' and name 'kd1_locomotion'
+[2.286s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_sensors) by extensions ['ignore', 'ignore_ament_install']
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_sensors) by extension 'ignore'
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_sensors) by extension 'ignore_ament_install'
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_sensors) by extensions ['colcon_pkg']
+[2.287s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_sensors) by extension 'colcon_pkg'
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_sensors) by extensions ['colcon_meta']
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_sensors) by extension 'colcon_meta'
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_sensors) by extensions ['ros']
+[2.288s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_sensors) by extension 'ros'
+[2.291s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kd1_sensors' with type 'ros.ament_python' and name 'kd1_sensors'
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes) by extensions ['ignore', 'ignore_ament_install']
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes) by extension 'ignore'
+[2.292s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes) by extension 'ignore_ament_install'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes) by extensions ['colcon_pkg']
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes) by extension 'colcon_pkg'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes) by extensions ['colcon_meta']
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes) by extension 'colcon_meta'
+[2.293s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes) by extensions ['ros']
+[2.294s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes) by extension 'ros'
+[2.297s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kd1_utility_nodes' with type 'ros.ament_python' and name 'kd1_utility_nodes'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes_cpp) by extensions ['ignore', 'ignore_ament_install']
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes_cpp) by extension 'ignore'
+[2.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes_cpp) by extension 'ignore_ament_install'
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes_cpp) by extensions ['colcon_pkg']
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes_cpp) by extension 'colcon_pkg'
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes_cpp) by extensions ['colcon_meta']
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes_cpp) by extension 'colcon_meta'
+[2.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes_cpp) by extensions ['ros']
+[2.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/kd1_utility_nodes_cpp) by extension 'ros'
+[2.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/kd1_utility_nodes_cpp' with type 'ros.ament_cmake' and name 'kd1_utility_nodes_cpp'
+[2.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.303s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.304s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.422s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.442s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 9 installed packages in /home/name/kd1_ws/install
+[2.445s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/name/machine2_ws/install
+[2.448s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/name/ros2_ws/install
+[2.462s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 425 installed packages in /opt/ros/humble
+[2.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.901s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'custom_interfaces' is in: /home/name/kd1_ws/install/custom_interfaces, /home/name/machine2_ws/install/custom_interfaces
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding custom_interfaces
+
+This may be promoted to an error in a future release of colcon-override-check.
+[2.906s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.906s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.906s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.906s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.907s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.907s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.907s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.907s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.907s] Level 5:colcon.colcon_core.verb:set package 'custom_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.907s] DEBUG:colcon.colcon_core.verb:Building package 'custom_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/name/kd1_ws/build/custom_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/name/kd1_ws/install/custom_interfaces', 'merge_install': False, 'path': '/home/name/kd1_ws/src/custom_interfaces', 'symlink_install': True, 'test_result_base': None}
+[2.909s] Level 5:colcon.colcon_core.verb:set package 'kd1_bringup' build argument 'cmake_args' from command line to 'None'
+[2.910s] Level 5:colcon.colcon_core.verb:set package 'kd1_bringup' build argument 'cmake_target' from command line to 'None'
+[2.910s] Level 5:colcon.colcon_core.verb:set package 'kd1_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.910s] Level 5:colcon.colcon_core.verb:set package 'kd1_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.910s] Level 5:colcon.colcon_core.verb:set package 'kd1_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.910s] Level 5:colcon.colcon_core.verb:set package 'kd1_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.910s] Level 5:colcon.colcon_core.verb:set package 'kd1_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.910s] Level 5:colcon.colcon_core.verb:set package 'kd1_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.910s] Level 5:colcon.colcon_core.verb:set package 'kd1_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.911s] DEBUG:colcon.colcon_core.verb:Building package 'kd1_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/name/kd1_ws/build/kd1_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/name/kd1_ws/install/kd1_bringup', 'merge_install': False, 'path': '/home/name/kd1_ws/src/kd1_bringup', 'symlink_install': True, 'test_result_base': None}
+[2.912s] Level 5:colcon.colcon_core.verb:set package 'kd1_central_processing' build argument 'cmake_args' from command line to 'None'
+[2.913s] Level 5:colcon.colcon_core.verb:set package 'kd1_central_processing' build argument 'cmake_target' from command line to 'None'
+[2.913s] Level 5:colcon.colcon_core.verb:set package 'kd1_central_processing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.913s] Level 5:colcon.colcon_core.verb:set package 'kd1_central_processing' build argument 'cmake_clean_cache' from command line to 'False'
+[2.913s] Level 5:colcon.colcon_core.verb:set package 'kd1_central_processing' build argument 'cmake_clean_first' from command line to 'False'
+[2.913s] Level 5:colcon.colcon_core.verb:set package 'kd1_central_processing' build argument 'cmake_force_configure' from command line to 'False'
+[2.913s] Level 5:colcon.colcon_core.verb:set package 'kd1_central_processing' build argument 'ament_cmake_args' from command line to 'None'
+[2.913s] Level 5:colcon.colcon_core.verb:set package 'kd1_central_processing' build argument 'catkin_cmake_args' from command line to 'None'
+[2.913s] Level 5:colcon.colcon_core.verb:set package 'kd1_central_processing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.913s] DEBUG:colcon.colcon_core.verb:Building package 'kd1_central_processing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/name/kd1_ws/build/kd1_central_processing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/name/kd1_ws/install/kd1_central_processing', 'merge_install': False, 'path': '/home/name/kd1_ws/src/kd1_central_processing', 'symlink_install': True, 'test_result_base': None}
+[2.915s] Level 5:colcon.colcon_core.verb:set package 'kd1_description' build argument 'cmake_args' from command line to 'None'
+[2.915s] Level 5:colcon.colcon_core.verb:set package 'kd1_description' build argument 'cmake_target' from command line to 'None'
+[2.915s] Level 5:colcon.colcon_core.verb:set package 'kd1_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.915s] Level 5:colcon.colcon_core.verb:set package 'kd1_description' build argument 'cmake_clean_cache' from command line to 'False'
+[2.916s] Level 5:colcon.colcon_core.verb:set package 'kd1_description' build argument 'cmake_clean_first' from command line to 'False'
+[2.916s] Level 5:colcon.colcon_core.verb:set package 'kd1_description' build argument 'cmake_force_configure' from command line to 'False'
+[2.916s] Level 5:colcon.colcon_core.verb:set package 'kd1_description' build argument 'ament_cmake_args' from command line to 'None'
+[2.916s] Level 5:colcon.colcon_core.verb:set package 'kd1_description' build argument 'catkin_cmake_args' from command line to 'None'
+[2.916s] Level 5:colcon.colcon_core.verb:set package 'kd1_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.916s] DEBUG:colcon.colcon_core.verb:Building package 'kd1_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/name/kd1_ws/build/kd1_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/name/kd1_ws/install/kd1_description', 'merge_install': False, 'path': '/home/name/kd1_ws/src/kd1_description', 'symlink_install': True, 'test_result_base': None}
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'kd1_locomotion' build argument 'cmake_args' from command line to 'None'
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'kd1_locomotion' build argument 'cmake_target' from command line to 'None'
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'kd1_locomotion' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'kd1_locomotion' build argument 'cmake_clean_cache' from command line to 'False'
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'kd1_locomotion' build argument 'cmake_clean_first' from command line to 'False'
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'kd1_locomotion' build argument 'cmake_force_configure' from command line to 'False'
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'kd1_locomotion' build argument 'ament_cmake_args' from command line to 'None'
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'kd1_locomotion' build argument 'catkin_cmake_args' from command line to 'None'
+[2.918s] Level 5:colcon.colcon_core.verb:set package 'kd1_locomotion' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.919s] DEBUG:colcon.colcon_core.verb:Building package 'kd1_locomotion' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/name/kd1_ws/build/kd1_locomotion', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/name/kd1_ws/install/kd1_locomotion', 'merge_install': False, 'path': '/home/name/kd1_ws/src/kd1_locomotion', 'symlink_install': True, 'test_result_base': None}
+[2.920s] Level 5:colcon.colcon_core.verb:set package 'kd1_sensors' build argument 'cmake_args' from command line to 'None'
+[2.920s] Level 5:colcon.colcon_core.verb:set package 'kd1_sensors' build argument 'cmake_target' from command line to 'None'
+[2.920s] Level 5:colcon.colcon_core.verb:set package 'kd1_sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.921s] Level 5:colcon.colcon_core.verb:set package 'kd1_sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[2.921s] Level 5:colcon.colcon_core.verb:set package 'kd1_sensors' build argument 'cmake_clean_first' from command line to 'False'
+[2.921s] Level 5:colcon.colcon_core.verb:set package 'kd1_sensors' build argument 'cmake_force_configure' from command line to 'False'
+[2.921s] Level 5:colcon.colcon_core.verb:set package 'kd1_sensors' build argument 'ament_cmake_args' from command line to 'None'
+[2.921s] Level 5:colcon.colcon_core.verb:set package 'kd1_sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[2.921s] Level 5:colcon.colcon_core.verb:set package 'kd1_sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.921s] DEBUG:colcon.colcon_core.verb:Building package 'kd1_sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/name/kd1_ws/build/kd1_sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/name/kd1_ws/install/kd1_sensors', 'merge_install': False, 'path': '/home/name/kd1_ws/src/kd1_sensors', 'symlink_install': True, 'test_result_base': None}
+[2.923s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes' build argument 'cmake_args' from command line to 'None'
+[2.923s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes' build argument 'cmake_target' from command line to 'None'
+[2.923s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.923s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[2.923s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[2.923s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[2.923s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[2.923s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[2.924s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.924s] DEBUG:colcon.colcon_core.verb:Building package 'kd1_utility_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/name/kd1_ws/build/kd1_utility_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/name/kd1_ws/install/kd1_utility_nodes', 'merge_install': False, 'path': '/home/name/kd1_ws/src/kd1_utility_nodes', 'symlink_install': True, 'test_result_base': None}
+[2.925s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes_cpp' build argument 'cmake_args' from command line to 'None'
+[2.925s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes_cpp' build argument 'cmake_target' from command line to 'None'
+[2.925s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[2.926s] Level 5:colcon.colcon_core.verb:set package 'kd1_utility_nodes_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.926s] DEBUG:colcon.colcon_core.verb:Building package 'kd1_utility_nodes_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/name/kd1_ws/build/kd1_utility_nodes_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/name/kd1_ws/install/kd1_utility_nodes_cpp', 'merge_install': False, 'path': '/home/name/kd1_ws/src/kd1_utility_nodes_cpp', 'symlink_install': True, 'test_result_base': None}
+[2.927s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.931s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.932s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/name/kd1_ws/src/custom_interfaces' with build type 'ament_cmake'
+[2.933s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/name/kd1_ws/src/custom_interfaces'
+[2.952s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.952s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.953s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.988s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/name/kd1_ws/src/kd1_bringup' with build type 'ament_cmake'
+[2.988s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/name/kd1_ws/src/kd1_bringup'
+[2.990s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.990s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.025s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/name/kd1_ws/src/kd1_central_processing' with build type 'ament_python'
+[3.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_central_processing', 'ament_prefix_path')
+[3.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_central_processing/share/kd1_central_processing/hook/ament_prefix_path.ps1'
+[3.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/kd1_central_processing/share/kd1_central_processing/hook/ament_prefix_path.dsv'
+[3.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_central_processing/share/kd1_central_processing/hook/ament_prefix_path.sh'
+[3.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.042s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.075s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/name/kd1_ws/src/kd1_description' with build type 'ament_cmake'
+[3.076s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/name/kd1_ws/src/kd1_description'
+[3.077s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.078s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake /home/name/kd1_ws/src/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/name/kd1_ws/install/custom_interfaces
+[3.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/kd1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake /home/name/kd1_ws/src/kd1_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/name/kd1_ws/install/kd1_bringup
+[5.324s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/name/kd1_ws/src/kd1_central_processing'
+[5.325s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.326s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/kd1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake /home/name/kd1_ws/src/kd1_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/name/kd1_ws/install/kd1_description
+[5.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/kd1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake /home/name/kd1_ws/src/kd1_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/name/kd1_ws/install/kd1_bringup
+[5.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/kd1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_bringup -- -j4 -l4
+[5.648s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/kd1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_bringup -- -j4 -l4
+[5.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/kd1_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_bringup
+[6.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kd1_bringup)
+[6.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/kd1_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_bringup
+[6.034s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_bringup' for CMake module files
+[6.039s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_bringup' for CMake config files
+[6.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_bringup', 'cmake_prefix_path')
+[6.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/hook/cmake_prefix_path.ps1'
+[6.048s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/hook/cmake_prefix_path.dsv'
+[6.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/hook/cmake_prefix_path.sh'
+[6.055s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_bringup/bin'
+[6.055s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_bringup/lib/pkgconfig/kd1_bringup.pc'
+[6.057s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_bringup/lib/python3.10/site-packages'
+[6.058s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_bringup/bin'
+[6.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/package.ps1'
+[6.066s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/package.dsv'
+[6.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/package.sh'
+[6.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/package.bash'
+[6.085s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/package.zsh'
+[6.092s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/name/kd1_ws/install/kd1_bringup/share/colcon-core/packages/kd1_bringup)
+[6.096s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kd1_bringup)
+[6.097s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_bringup' for CMake module files
+[6.100s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_bringup' for CMake config files
+[6.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_bringup', 'cmake_prefix_path')
+[6.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/hook/cmake_prefix_path.ps1'
+[6.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/hook/cmake_prefix_path.dsv'
+[6.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/hook/cmake_prefix_path.sh'
+[6.117s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_bringup/bin'
+[6.117s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_bringup/lib/pkgconfig/kd1_bringup.pc'
+[6.119s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_bringup/lib/python3.10/site-packages'
+[6.121s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_bringup/bin'
+[6.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/package.ps1'
+[6.127s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/package.dsv'
+[6.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/package.sh'
+[6.134s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/package.bash'
+[6.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_bringup/share/kd1_bringup/package.zsh'
+[6.141s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/name/kd1_ws/install/kd1_bringup/share/colcon-core/packages/kd1_bringup)
+[6.147s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/name/kd1_ws/src/kd1_locomotion' with build type 'ament_python'
+[6.148s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_locomotion', 'ament_prefix_path')
+[6.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_locomotion/share/kd1_locomotion/hook/ament_prefix_path.ps1'
+[6.153s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/kd1_locomotion/share/kd1_locomotion/hook/ament_prefix_path.dsv'
+[6.155s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_locomotion/share/kd1_locomotion/hook/ament_prefix_path.sh'
+[6.160s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.160s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.518s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/name/kd1_ws/src/kd1_locomotion'
+[8.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[8.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[8.579s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/kd1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake /home/name/kd1_ws/src/kd1_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/name/kd1_ws/install/kd1_description
+[8.591s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/kd1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_description -- -j4 -l4
+[8.843s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/kd1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_description -- -j4 -l4
+[8.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/kd1_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_description
+[9.034s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kd1_description)
+[9.036s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_description' for CMake module files
+[9.045s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_description' for CMake config files
+[9.050s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/kd1_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_description
+[9.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_description', 'cmake_prefix_path')
+[9.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_description/share/kd1_description/hook/cmake_prefix_path.ps1'
+[9.056s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/kd1_description/share/kd1_description/hook/cmake_prefix_path.dsv'
+[9.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_description/share/kd1_description/hook/cmake_prefix_path.sh'
+[9.065s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_description/bin'
+[9.067s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_description/lib/pkgconfig/kd1_description.pc'
+[9.070s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_description/lib/python3.10/site-packages'
+[9.077s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_description/bin'
+[9.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_description/share/kd1_description/package.ps1'
+[9.085s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/name/kd1_ws/install/kd1_description/share/kd1_description/package.dsv'
+[9.095s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_description/share/kd1_description/package.sh'
+[9.101s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_description/share/kd1_description/package.bash'
+[9.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_description/share/kd1_description/package.zsh'
+[9.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/name/kd1_ws/install/kd1_description/share/colcon-core/packages/kd1_description)
+[9.119s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kd1_description)
+[9.121s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_description' for CMake module files
+[9.128s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_description' for CMake config files
+[9.133s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_description', 'cmake_prefix_path')
+[9.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_description/share/kd1_description/hook/cmake_prefix_path.ps1'
+[9.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/kd1_description/share/kd1_description/hook/cmake_prefix_path.dsv'
+[9.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_description/share/kd1_description/hook/cmake_prefix_path.sh'
+[9.159s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_description/bin'
+[9.160s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_description/lib/pkgconfig/kd1_description.pc'
+[9.162s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_description/lib/python3.10/site-packages'
+[9.164s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_description/bin'
+[9.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_description/share/kd1_description/package.ps1'
+[9.174s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/name/kd1_ws/install/kd1_description/share/kd1_description/package.dsv'
+[9.179s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_description/share/kd1_description/package.sh'
+[9.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_description/share/kd1_description/package.bash'
+[9.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_description/share/kd1_description/package.zsh'
+[9.193s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/name/kd1_ws/install/kd1_description/share/colcon-core/packages/kd1_description)
+[9.201s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/name/kd1_ws/src/kd1_sensors' with build type 'ament_python'
+[9.209s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_sensors', 'ament_prefix_path')
+[9.210s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_sensors/share/kd1_sensors/hook/ament_prefix_path.ps1'
+[9.219s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/kd1_sensors/share/kd1_sensors/hook/ament_prefix_path.dsv'
+[9.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_sensors/share/kd1_sensors/hook/ament_prefix_path.sh'
+[9.230s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.635s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/name/kd1_ws/src/kd1_sensors'
+[11.637s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.637s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake /home/name/kd1_ws/src/custom_interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/name/kd1_ws/install/custom_interfaces
+[11.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/custom_interfaces -- -j4 -l4
+[11.698s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_central_processing/share/ament_index/resource_index/packages/kd1_central_processing
+[11.698s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_central_processing/share/kd1_central_processing/package.xml
+[11.699s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_central_processing/lib/kd1_central_processing/central_processing_node
+[11.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/kd1_central_processing': PYTHONPATH=/home/name/kd1_ws/build/kd1_central_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_central_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_central_processing/build --no-deps symlink_data --force
+[11.731s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_locomotion/share/ament_index/resource_index/packages/kd1_locomotion
+[11.732s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_locomotion/share/kd1_locomotion/package.xml
+[11.735s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion/motor_driver_comms_node
+[11.735s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion/moving_robot_node
+[11.736s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion/teleop_node
+[11.736s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion/wheel_encoder_node
+[11.737s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion/wheel_odometry_node
+[11.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/kd1_locomotion': PYTHONPATH=/home/name/kd1_ws/build/kd1_locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_locomotion/build --no-deps symlink_data --force
+[15.773s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/custom_interfaces -- -j4 -l4
+[15.798s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/custom_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/custom_interfaces
+[17.248s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[17.250s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/custom_interfaces' for CMake module files
+[17.256s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/custom_interfaces' for CMake config files
+[17.288s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/custom_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/custom_interfaces
+[17.292s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[17.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[17.308s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[17.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[17.323s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/custom_interfaces/lib'
+[17.325s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[17.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[17.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[17.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[17.360s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/custom_interfaces/bin'
+[17.362s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[17.363s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[17.365s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/custom_interfaces/bin'
+[17.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[17.373s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[17.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[17.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[17.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[17.410s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/name/kd1_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[17.422s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_interfaces)
+[17.429s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/custom_interfaces' for CMake module files
+[17.442s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/custom_interfaces' for CMake config files
+[17.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'cmake_prefix_path')
+[17.488s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.ps1'
+[17.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.dsv'
+[17.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/hook/cmake_prefix_path.sh'
+[17.514s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/custom_interfaces/lib'
+[17.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_interfaces', 'ld_library_path_lib')
+[17.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.ps1'
+[17.545s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.dsv'
+[17.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/hook/ld_library_path_lib.sh'
+[17.556s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/custom_interfaces/bin'
+[17.556s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/custom_interfaces/lib/pkgconfig/custom_interfaces.pc'
+[17.558s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/custom_interfaces/lib/python3.10/site-packages'
+[17.559s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/custom_interfaces/bin'
+[17.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/package.ps1'
+[17.568s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/package.dsv'
+[17.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/package.sh'
+[17.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/package.bash'
+[17.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/custom_interfaces/share/custom_interfaces/package.zsh'
+[17.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/name/kd1_ws/install/custom_interfaces/share/colcon-core/packages/custom_interfaces)
+[17.596s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/name/kd1_ws/src/kd1_utility_nodes' with build type 'ament_python'
+[17.601s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_utility_nodes', 'ament_prefix_path')
+[17.602s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_utility_nodes/share/kd1_utility_nodes/hook/ament_prefix_path.ps1'
+[17.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/kd1_utility_nodes/share/kd1_utility_nodes/hook/ament_prefix_path.dsv'
+[17.616s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_utility_nodes/share/kd1_utility_nodes/hook/ament_prefix_path.sh'
+[17.621s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.622s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.694s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_sensors/share/ament_index/resource_index/packages/kd1_sensors
+[17.695s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_sensors/share/kd1_sensors/package.xml
+[17.700s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_sensors/lib/kd1_sensors/audio_direction_node
+[17.701s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_sensors/lib/kd1_sensors/oak_depthai_node
+[17.701s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_sensors/lib/kd1_sensors/tof_sensors_alert_node
+[17.702s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_sensors/lib/kd1_sensors/voice_recognition_node
+[17.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/kd1_sensors': PYTHONPATH=/home/name/kd1_ws/build/kd1_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_sensors/build --no-deps symlink_data --force
+[21.502s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/name/kd1_ws/src/kd1_utility_nodes'
+[21.504s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.504s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.576s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_central_processing', 'pythonpath_develop')
+[21.580s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/build/kd1_central_processing/share/kd1_central_processing/hook/pythonpath_develop.ps1'
+[21.578s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/kd1_central_processing' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_central_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_central_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_central_processing/build --no-deps symlink_data --force
+[21.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/build/kd1_central_processing/share/kd1_central_processing/hook/pythonpath_develop.dsv'
+[21.600s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/build/kd1_central_processing/share/kd1_central_processing/hook/pythonpath_develop.sh'
+[21.604s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_central_processing' for CMake module files
+[21.608s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_central_processing' for CMake config files
+[21.623s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_central_processing/lib'
+[21.623s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_central_processing/bin'
+[21.624s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_central_processing/lib/pkgconfig/kd1_central_processing.pc'
+[21.625s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_central_processing/lib/python3.10/site-packages'
+[21.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_central_processing', 'pythonpath')
+[21.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_central_processing/share/kd1_central_processing/hook/pythonpath.ps1'
+[21.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/kd1_central_processing/share/kd1_central_processing/hook/pythonpath.dsv'
+[21.642s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_central_processing/share/kd1_central_processing/hook/pythonpath.sh'
+[21.652s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_central_processing/bin'
+[21.653s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kd1_central_processing)
+[21.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_central_processing/share/kd1_central_processing/package.ps1'
+[21.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/name/kd1_ws/install/kd1_central_processing/share/kd1_central_processing/package.dsv'
+[21.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_central_processing/share/kd1_central_processing/package.sh'
+[21.670s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_central_processing/share/kd1_central_processing/package.bash'
+[21.673s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_central_processing/share/kd1_central_processing/package.zsh'
+[21.676s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/name/kd1_ws/install/kd1_central_processing/share/colcon-core/packages/kd1_central_processing)
+[21.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_locomotion', 'pythonpath_develop')
+[21.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/kd1_locomotion' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_locomotion/build --no-deps symlink_data --force
+[21.685s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/build/kd1_locomotion/share/kd1_locomotion/hook/pythonpath_develop.ps1'
+[21.689s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/build/kd1_locomotion/share/kd1_locomotion/hook/pythonpath_develop.dsv'
+[21.693s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/build/kd1_locomotion/share/kd1_locomotion/hook/pythonpath_develop.sh'
+[21.697s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_locomotion' for CMake module files
+[21.701s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_locomotion' for CMake config files
+[21.706s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_locomotion/lib'
+[21.707s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_locomotion/bin'
+[21.707s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_locomotion/lib/pkgconfig/kd1_locomotion.pc'
+[21.709s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages'
+[21.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_locomotion', 'pythonpath')
+[21.711s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_locomotion/share/kd1_locomotion/hook/pythonpath.ps1'
+[21.715s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/kd1_locomotion/share/kd1_locomotion/hook/pythonpath.dsv'
+[21.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_locomotion/share/kd1_locomotion/hook/pythonpath.sh'
+[21.723s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_locomotion/bin'
+[21.723s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kd1_locomotion)
+[21.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_locomotion/share/kd1_locomotion/package.ps1'
+[21.730s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/name/kd1_ws/install/kd1_locomotion/share/kd1_locomotion/package.dsv'
+[21.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_locomotion/share/kd1_locomotion/package.sh'
+[21.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_locomotion/share/kd1_locomotion/package.bash'
+[21.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_locomotion/share/kd1_locomotion/package.zsh'
+[21.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/name/kd1_ws/install/kd1_locomotion/share/colcon-core/packages/kd1_locomotion)
+[21.773s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/name/kd1_ws/src/kd1_utility_nodes_cpp' with build type 'ament_cmake'
+[21.774s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/name/kd1_ws/src/kd1_utility_nodes_cpp'
+[21.775s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[21.776s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[21.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/kd1_utility_nodes_cpp': CMAKE_PREFIX_PATH=/home/name/kd1_ws/install/custom_interfaces:/home/name/kd1_ws/install/kd1_utility_nodes_cpp:/home/name/kd1_ws/install/kd1_description:/home/name/kd1_ws/install/kd1_bringup:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake /home/name/kd1_ws/src/kd1_utility_nodes_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/name/kd1_ws/install/kd1_utility_nodes_cpp
+[24.737s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_sensors', 'pythonpath_develop')
+[24.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/build/kd1_sensors/share/kd1_sensors/hook/pythonpath_develop.ps1'
+[24.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/build/kd1_sensors/share/kd1_sensors/hook/pythonpath_develop.dsv'
+[24.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/build/kd1_sensors/share/kd1_sensors/hook/pythonpath_develop.sh'
+[24.754s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/kd1_sensors' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_sensors/build --no-deps symlink_data --force
+[24.756s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_sensors' for CMake module files
+[24.764s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_sensors' for CMake config files
+[24.781s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_sensors/lib'
+[24.781s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_sensors/bin'
+[24.782s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_sensors/lib/pkgconfig/kd1_sensors.pc'
+[24.783s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_sensors/lib/python3.10/site-packages'
+[24.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_sensors', 'pythonpath')
+[24.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_sensors/share/kd1_sensors/hook/pythonpath.ps1'
+[24.795s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/kd1_sensors/share/kd1_sensors/hook/pythonpath.dsv'
+[24.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_sensors/share/kd1_sensors/hook/pythonpath.sh'
+[24.803s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_sensors/bin'
+[24.803s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kd1_sensors)
+[24.805s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_sensors/share/kd1_sensors/package.ps1'
+[24.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/name/kd1_ws/install/kd1_sensors/share/kd1_sensors/package.dsv'
+[24.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_sensors/share/kd1_sensors/package.sh'
+[24.827s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_sensors/share/kd1_sensors/package.bash'
+[24.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_sensors/share/kd1_sensors/package.zsh'
+[24.835s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/name/kd1_ws/install/kd1_sensors/share/colcon-core/packages/kd1_sensors)
+[25.931s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_utility_nodes/share/ament_index/resource_index/packages/kd1_utility_nodes
+[25.931s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_utility_nodes/share/kd1_utility_nodes/package.xml
+[25.933s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_utility_nodes/lib/kd1_utility_nodes/audio_playback_node
+[25.933s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_utility_nodes/lib/kd1_utility_nodes/face_animation_node
+[25.933s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_utility_nodes/lib/kd1_utility_nodes/imu_conversion_node
+[25.934s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/name/kd1_ws/install/kd1_utility_nodes/lib/kd1_utility_nodes/light_ring_node
+[25.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/kd1_utility_nodes': PYTHONPATH=/home/name/kd1_ws/build/kd1_utility_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_utility_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_utility_nodes/build --no-deps symlink_data --force
+[28.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/kd1_utility_nodes_cpp' returned '0': CMAKE_PREFIX_PATH=/home/name/kd1_ws/install/custom_interfaces:/home/name/kd1_ws/install/kd1_utility_nodes_cpp:/home/name/kd1_ws/install/kd1_description:/home/name/kd1_ws/install/kd1_bringup:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake /home/name/kd1_ws/src/kd1_utility_nodes_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/name/kd1_ws/install/kd1_utility_nodes_cpp
+[28.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/kd1_utility_nodes_cpp': CMAKE_PREFIX_PATH=/home/name/kd1_ws/install/custom_interfaces:/home/name/kd1_ws/install/kd1_utility_nodes_cpp:/home/name/kd1_ws/install/kd1_description:/home/name/kd1_ws/install/kd1_bringup:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_utility_nodes_cpp -- -j4 -l4
+[28.820s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/kd1_utility_nodes_cpp' returned '0': CMAKE_PREFIX_PATH=/home/name/kd1_ws/install/custom_interfaces:/home/name/kd1_ws/install/kd1_utility_nodes_cpp:/home/name/kd1_ws/install/kd1_description:/home/name/kd1_ws/install/kd1_bringup:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_utility_nodes_cpp -- -j4 -l4
+[28.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/name/kd1_ws/build/kd1_utility_nodes_cpp': CMAKE_PREFIX_PATH=/home/name/kd1_ws/install/custom_interfaces:/home/name/kd1_ws/install/kd1_utility_nodes_cpp:/home/name/kd1_ws/install/kd1_description:/home/name/kd1_ws/install/kd1_bringup:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_utility_nodes_cpp
+[28.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kd1_utility_nodes_cpp)
+[28.979s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes_cpp' for CMake module files
+[28.982s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/kd1_utility_nodes_cpp' returned '0': CMAKE_PREFIX_PATH=/home/name/kd1_ws/install/custom_interfaces:/home/name/kd1_ws/install/kd1_utility_nodes_cpp:/home/name/kd1_ws/install/kd1_description:/home/name/kd1_ws/install/kd1_bringup:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_utility_nodes_cpp
+[28.986s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes_cpp' for CMake config files
+[28.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_utility_nodes_cpp', 'cmake_prefix_path')
+[28.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/hook/cmake_prefix_path.ps1'
+[28.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/hook/cmake_prefix_path.dsv'
+[29.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/hook/cmake_prefix_path.sh'
+[29.005s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/lib'
+[29.006s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/bin'
+[29.006s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/lib/pkgconfig/kd1_utility_nodes_cpp.pc'
+[29.007s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/lib/python3.10/site-packages'
+[29.009s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/bin'
+[29.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/package.ps1'
+[29.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/package.dsv'
+[29.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/package.sh'
+[29.021s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/package.bash'
+[29.028s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/package.zsh'
+[29.030s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/colcon-core/packages/kd1_utility_nodes_cpp)
+[29.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kd1_utility_nodes_cpp)
+[29.037s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes_cpp' for CMake module files
+[29.041s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes_cpp' for CMake config files
+[29.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_utility_nodes_cpp', 'cmake_prefix_path')
+[29.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/hook/cmake_prefix_path.ps1'
+[29.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/hook/cmake_prefix_path.dsv'
+[29.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/hook/cmake_prefix_path.sh'
+[29.060s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/lib'
+[29.062s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/bin'
+[29.062s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/lib/pkgconfig/kd1_utility_nodes_cpp.pc'
+[29.064s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/lib/python3.10/site-packages'
+[29.065s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/bin'
+[29.067s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/package.ps1'
+[29.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/package.dsv'
+[29.076s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/package.sh'
+[29.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/package.bash'
+[29.086s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/kd1_utility_nodes_cpp/package.zsh'
+[29.090s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/name/kd1_ws/install/kd1_utility_nodes_cpp/share/colcon-core/packages/kd1_utility_nodes_cpp)
+[31.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_utility_nodes', 'pythonpath_develop')
+[31.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/build/kd1_utility_nodes/share/kd1_utility_nodes/hook/pythonpath_develop.ps1'
+[31.546s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/build/kd1_utility_nodes/share/kd1_utility_nodes/hook/pythonpath_develop.dsv'
+[31.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/build/kd1_utility_nodes/share/kd1_utility_nodes/hook/pythonpath_develop.sh'
+[31.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/name/kd1_ws/build/kd1_utility_nodes' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_utility_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_utility_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_utility_nodes/build --no-deps symlink_data --force
+[31.556s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes' for CMake module files
+[31.560s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes' for CMake config files
+[31.564s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes/lib'
+[31.565s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes/bin'
+[31.566s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes/lib/pkgconfig/kd1_utility_nodes.pc'
+[31.567s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes/lib/python3.10/site-packages'
+[31.568s] Level 1:colcon.colcon_core.shell:create_environment_hook('kd1_utility_nodes', 'pythonpath')
+[31.569s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_utility_nodes/share/kd1_utility_nodes/hook/pythonpath.ps1'
+[31.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/name/kd1_ws/install/kd1_utility_nodes/share/kd1_utility_nodes/hook/pythonpath.dsv'
+[31.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/name/kd1_ws/install/kd1_utility_nodes/share/kd1_utility_nodes/hook/pythonpath.sh'
+[31.579s] Level 1:colcon.colcon_core.environment:checking '/home/name/kd1_ws/install/kd1_utility_nodes/bin'
+[31.581s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(kd1_utility_nodes)
+[31.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_utility_nodes/share/kd1_utility_nodes/package.ps1'
+[31.587s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/name/kd1_ws/install/kd1_utility_nodes/share/kd1_utility_nodes/package.dsv'
+[31.591s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_utility_nodes/share/kd1_utility_nodes/package.sh'
+[31.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_utility_nodes/share/kd1_utility_nodes/package.bash'
+[31.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/name/kd1_ws/install/kd1_utility_nodes/share/kd1_utility_nodes/package.zsh'
+[31.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/name/kd1_ws/install/kd1_utility_nodes/share/colcon-core/packages/kd1_utility_nodes)
+[31.615s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[31.616s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[31.617s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[31.617s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[31.672s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[31.673s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[31.673s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[31.817s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[31.819s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/name/kd1_ws/install/local_setup.ps1'
+[31.825s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/name/kd1_ws/install/_local_setup_util_ps1.py'
+[31.834s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/name/kd1_ws/install/setup.ps1'
+[31.850s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/name/kd1_ws/install/local_setup.sh'
+[31.855s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/name/kd1_ws/install/_local_setup_util_sh.py'
+[31.859s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/name/kd1_ws/install/setup.sh'
+[31.873s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/name/kd1_ws/install/local_setup.bash'
+[31.877s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/name/kd1_ws/install/setup.bash'
+[31.892s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/name/kd1_ws/install/local_setup.zsh'
+[31.897s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/name/kd1_ws/install/setup.zsh'

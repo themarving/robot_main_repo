@@ -1,0 +1,319 @@
+[0.000000] (-) TimerEvent: {}
+[0.001738] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.002328] (-) JobUnselected: {'identifier': 'kd1_bringup'}
+[0.002905] (-) JobUnselected: {'identifier': 'kd1_central_processing'}
+[0.003109] (-) JobUnselected: {'identifier': 'kd1_depth'}
+[0.003269] (-) JobUnselected: {'identifier': 'kd1_description'}
+[0.003420] (-) JobUnselected: {'identifier': 'kd1_locomotion'}
+[0.003575] (-) JobUnselected: {'identifier': 'kd1_sensors'}
+[0.003725] (-) JobUnselected: {'identifier': 'kd1_utility_nodes'}
+[0.003912] (kd1_cpp_nodes) JobQueued: {'identifier': 'kd1_cpp_nodes', 'dependencies': OrderedDict()}
+[0.004081] (kd1_cpp_nodes) JobStarted: {'identifier': 'kd1_cpp_nodes'}
+[0.061580] (kd1_cpp_nodes) JobProgress: {'identifier': 'kd1_cpp_nodes', 'progress': 'cmake'}
+[0.064739] (kd1_cpp_nodes) JobProgress: {'identifier': 'kd1_cpp_nodes', 'progress': 'build'}
+[0.067704] (kd1_cpp_nodes) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/name/kd1_ws/build/kd1_cpp_nodes', '--', '-j4', '-l4'], 'cwd': '/home/name/kd1_ws/build/kd1_cpp_nodes', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'name'), ('SSH_CLIENT', '192.168.2.33 62723 22'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/name/kd1_ws/install/custom_interfaces/lib:/home/name/machine2_ws/install/machine2_hardware_interfaces/lib:/home/name/machine2_ws/install/machine2_controllers/lib:/home/name/machine2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/name/.vscode-server/cli/servers/Stable-0f0d87fa9e96c856c5212fc86db137ac0d783365/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/name'), ('OLDPWD', '/home/name'), ('TERM_PROGRAM_VERSION', '1.104.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-69cf67b5-1c45-45e0-adc8-b56e2d937a4e.sock'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/name/.vscode-server/extensions/ms-python.debugpy-2025.14.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/name/kd1_ws/install:/home/name/machine2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'name'), ('IGN_GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('NANO_PORT', '/dev/serial/by-id/usb-Arduino_LLC_Arduino_Nano_Every_350A35525153543553202020FF17172D-if00'), ('XDG_SESSION_ID', '5'), ('GAZEBO_MODEL_PATH', '/opt/ros/humble/share'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/name/.vscode-server/cli/servers/Stable-0f0d87fa9e96c856c5212fc86db137ac0d783365/server/bin/remote-cli:/home/name/.local/bin:/opt/ros/humble/bin:/home/name/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/name/.vscode-server/extensions/ms-python.debugpy-2025.14.0-linux-arm64/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/name/.vscode-server/extensions/ms-python.debugpy-2025.14.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-90bde77f37a806d0.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/name/.vscode-server/data/User/workspaceStorage/ff4a1955daeb28f829778cf62de44601/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '0'), ('AMENT_PREFIX_PATH', '/home/name/kd1_ws/install/kd1_cpp_nodes:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes_cpp:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_description:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/kd1_ws/install/kd1_bringup:/home/name/kd1_ws/install/custom_interfaces:/home/name/machine2_ws/install/machine2_servo_interface:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('IGN_GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GAZEBO_RESOURCE_PATH', '/opt/ros/humble/share'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('PWD', '/home/name/kd1_ws/build/kd1_cpp_nodes'), ('UNO_PORT', '/dev/serial/by-id/usb-Arduino__www.arduino.cc__0043_850333131373514022A1-if00'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.2.33 62723 192.168.2.116 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/name/kd1_ws/build/main_pkg_python:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:/home/name/kd1_ws/build/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_utility_nodes/lib/python3.10/site-packages:/home/name/kd1_ws/build/kd1_sensors:/home/name/kd1_ws/install/kd1_sensors/lib/python3.10/site-packages:/home/name/kd1_ws/build/kd1_locomotion:/home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages:/home/name/kd1_ws/build/kd1_depth:/home/name/kd1_ws/install/kd1_depth/lib/python3.10/site-packages:/home/name/kd1_ws/build/kd1_central_processing:/home/name/kd1_ws/install/kd1_central_processing/lib/python3.10/site-packages:/home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/name/machine2_ws/install/machine2_servo_interface/lib/python3.10/site-packages:/home/name/machine2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/name/kd1_ws/install/kd1_cpp_nodes:/home/name/kd1_ws/install/kd1_utility_nodes_cpp:/home/name/kd1_ws/install/kd1_description:/home/name/kd1_ws/install/kd1_bringup:/home/name/kd1_ws/install/custom_interfaces:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble')]), 'shell': False}
+[0.099037] (-) TimerEvent: {}
+[0.199889] (-) TimerEvent: {}
+[0.205256] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300099] (-) TimerEvent: {}
+[0.400946] (-) TimerEvent: {}
+[0.501762] (-) TimerEvent: {}
+[0.602412] (-) TimerEvent: {}
+[0.703136] (-) TimerEvent: {}
+[0.803927] (-) TimerEvent: {}
+[0.904768] (-) TimerEvent: {}
+[0.952935] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.004915] (-) TimerEvent: {}
+[1.105704] (-) TimerEvent: {}
+[1.140292] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.151076] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.174796] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.205889] (-) TimerEvent: {}
+[1.216265] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.268343] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.306061] (-) TimerEvent: {}
+[1.406805] (-) TimerEvent: {}
+[1.407767] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.416128] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.506975] (-) TimerEvent: {}
+[1.607680] (-) TimerEvent: {}
+[1.708447] (-) TimerEvent: {}
+[1.809208] (-) TimerEvent: {}
+[1.909994] (-) TimerEvent: {}
+[2.010710] (-) TimerEvent: {}
+[2.111424] (-) TimerEvent: {}
+[2.212132] (-) TimerEvent: {}
+[2.312867] (-) TimerEvent: {}
+[2.413576] (-) TimerEvent: {}
+[2.514373] (-) TimerEvent: {}
+[2.560546] (kd1_cpp_nodes) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.614558] (-) TimerEvent: {}
+[2.715481] (-) TimerEvent: {}
+[2.751978] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[2.815668] (-) TimerEvent: {}
+[2.869133] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.915852] (-) TimerEvent: {}
+[2.980989] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[3.016133] (-) TimerEvent: {}
+[3.117021] (-) TimerEvent: {}
+[3.218096] (-) TimerEvent: {}
+[3.318784] (-) TimerEvent: {}
+[3.419587] (-) TimerEvent: {}
+[3.520416] (-) TimerEvent: {}
+[3.524491] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.592271] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Generating done\n'}
+[3.611703] (kd1_cpp_nodes) StdoutLine: {'line': b'-- Build files have been written to: /home/name/kd1_ws/build/kd1_cpp_nodes\n'}
+[3.620873] (-) TimerEvent: {}
+[3.722817] (-) TimerEvent: {}
+[3.746150] (kd1_cpp_nodes) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target emergency_stop_node\x1b[0m\n'}
+[3.823000] (-) TimerEvent: {}
+[3.866243] (kd1_cpp_nodes) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/emergency_stop_node.dir/src/emergency_stop_node.cpp.o\x1b[0m\n'}
+[3.923187] (-) TimerEvent: {}
+[4.023973] (-) TimerEvent: {}
+[4.124840] (-) TimerEvent: {}
+[4.225561] (-) TimerEvent: {}
+[4.326300] (-) TimerEvent: {}
+[4.427066] (-) TimerEvent: {}
+[4.527804] (-) TimerEvent: {}
+[4.628547] (-) TimerEvent: {}
+[4.729343] (-) TimerEvent: {}
+[4.830193] (-) TimerEvent: {}
+[4.930974] (-) TimerEvent: {}
+[5.031701] (-) TimerEvent: {}
+[5.132452] (-) TimerEvent: {}
+[5.233201] (-) TimerEvent: {}
+[5.334055] (-) TimerEvent: {}
+[5.434852] (-) TimerEvent: {}
+[5.535631] (-) TimerEvent: {}
+[5.636376] (-) TimerEvent: {}
+[5.737096] (-) TimerEvent: {}
+[5.837914] (-) TimerEvent: {}
+[5.938665] (-) TimerEvent: {}
+[6.039534] (-) TimerEvent: {}
+[6.140390] (-) TimerEvent: {}
+[6.241281] (-) TimerEvent: {}
+[6.342268] (-) TimerEvent: {}
+[6.443170] (-) TimerEvent: {}
+[6.543991] (-) TimerEvent: {}
+[6.644783] (-) TimerEvent: {}
+[6.745828] (-) TimerEvent: {}
+[6.846646] (-) TimerEvent: {}
+[6.947492] (-) TimerEvent: {}
+[7.048415] (-) TimerEvent: {}
+[7.149260] (-) TimerEvent: {}
+[7.250231] (-) TimerEvent: {}
+[7.351325] (-) TimerEvent: {}
+[7.452216] (-) TimerEvent: {}
+[7.553021] (-) TimerEvent: {}
+[7.653894] (-) TimerEvent: {}
+[7.754710] (-) TimerEvent: {}
+[7.855563] (-) TimerEvent: {}
+[7.956423] (-) TimerEvent: {}
+[8.057260] (-) TimerEvent: {}
+[8.158198] (-) TimerEvent: {}
+[8.259012] (-) TimerEvent: {}
+[8.360058] (-) TimerEvent: {}
+[8.461345] (-) TimerEvent: {}
+[8.562265] (-) TimerEvent: {}
+[8.663059] (-) TimerEvent: {}
+[8.763897] (-) TimerEvent: {}
+[8.864720] (-) TimerEvent: {}
+[8.965653] (-) TimerEvent: {}
+[9.066459] (-) TimerEvent: {}
+[9.167267] (-) TimerEvent: {}
+[9.268090] (-) TimerEvent: {}
+[9.368927] (-) TimerEvent: {}
+[9.469834] (-) TimerEvent: {}
+[9.570775] (-) TimerEvent: {}
+[9.671606] (-) TimerEvent: {}
+[9.772472] (-) TimerEvent: {}
+[9.873461] (-) TimerEvent: {}
+[9.974333] (-) TimerEvent: {}
+[10.075225] (-) TimerEvent: {}
+[10.176144] (-) TimerEvent: {}
+[10.276984] (-) TimerEvent: {}
+[10.377800] (-) TimerEvent: {}
+[10.478627] (-) TimerEvent: {}
+[10.579466] (-) TimerEvent: {}
+[10.680279] (-) TimerEvent: {}
+[10.781120] (-) TimerEvent: {}
+[10.881982] (-) TimerEvent: {}
+[10.982903] (-) TimerEvent: {}
+[11.083773] (-) TimerEvent: {}
+[11.184593] (-) TimerEvent: {}
+[11.285530] (-) TimerEvent: {}
+[11.386404] (-) TimerEvent: {}
+[11.487234] (-) TimerEvent: {}
+[11.588127] (-) TimerEvent: {}
+[11.688977] (-) TimerEvent: {}
+[11.789928] (-) TimerEvent: {}
+[11.890774] (-) TimerEvent: {}
+[11.991599] (-) TimerEvent: {}
+[12.092447] (-) TimerEvent: {}
+[12.193289] (-) TimerEvent: {}
+[12.294258] (-) TimerEvent: {}
+[12.395142] (-) TimerEvent: {}
+[12.495955] (-) TimerEvent: {}
+[12.596765] (-) TimerEvent: {}
+[12.697659] (-) TimerEvent: {}
+[12.798499] (-) TimerEvent: {}
+[12.899321] (-) TimerEvent: {}
+[13.000188] (-) TimerEvent: {}
+[13.101115] (-) TimerEvent: {}
+[13.202076] (-) TimerEvent: {}
+[13.302911] (-) TimerEvent: {}
+[13.403789] (-) TimerEvent: {}
+[13.504730] (-) TimerEvent: {}
+[13.605691] (-) TimerEvent: {}
+[13.706523] (-) TimerEvent: {}
+[13.807366] (-) TimerEvent: {}
+[13.908191] (-) TimerEvent: {}
+[14.009114] (-) TimerEvent: {}
+[14.110119] (-) TimerEvent: {}
+[14.210955] (-) TimerEvent: {}
+[14.311761] (-) TimerEvent: {}
+[14.412624] (-) TimerEvent: {}
+[14.513514] (-) TimerEvent: {}
+[14.614367] (-) TimerEvent: {}
+[14.715191] (-) TimerEvent: {}
+[14.816040] (-) TimerEvent: {}
+[14.916893] (-) TimerEvent: {}
+[15.013388] (kd1_cpp_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid EmergencyStopNode::cancel_nav2_goal()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[15.014311] (kd1_cpp_nodes) StderrLine: {'line': b'\x1b[01m\x1b[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:105:59:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing element_type = class rclcpp_action::Client<nav2_msgs::action::NavigateToPose>\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass rclcpp_action::Client<nav2_msgs::action::NavigateToPose>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kserver_is_ready\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kaction_server_is_ready\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[15.014920] (kd1_cpp_nodes) StderrLine: {'line': b'  105 | cel_navto_client_ && cancel_navto_client_->\x1b[01;31m\x1b[Kserver_is_ready\x1b[m\x1b[K())\n'}
+[15.015371] (kd1_cpp_nodes) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[15.015783] (kd1_cpp_nodes) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[Kaction_server_is_ready\x1b[m\x1b[K\n'}
+[15.017048] (-) TimerEvent: {}
+[15.117793] (-) TimerEvent: {}
+[15.218661] (-) TimerEvent: {}
+[15.319544] (-) TimerEvent: {}
+[15.420402] (-) TimerEvent: {}
+[15.521191] (-) TimerEvent: {}
+[15.622100] (-) TimerEvent: {}
+[15.722924] (-) TimerEvent: {}
+[15.823776] (-) TimerEvent: {}
+[15.924639] (-) TimerEvent: {}
+[16.025474] (-) TimerEvent: {}
+[16.126385] (-) TimerEvent: {}
+[16.227216] (-) TimerEvent: {}
+[16.328071] (-) TimerEvent: {}
+[16.429031] (-) TimerEvent: {}
+[16.529906] (-) TimerEvent: {}
+[16.630815] (-) TimerEvent: {}
+[16.731690] (-) TimerEvent: {}
+[16.832688] (-) TimerEvent: {}
+[16.933670] (-) TimerEvent: {}
+[17.034609] (-) TimerEvent: {}
+[17.135530] (-) TimerEvent: {}
+[17.236377] (-) TimerEvent: {}
+[17.337279] (-) TimerEvent: {}
+[17.438248] (-) TimerEvent: {}
+[17.539198] (-) TimerEvent: {}
+[17.640301] (-) TimerEvent: {}
+[17.741219] (-) TimerEvent: {}
+[17.842116] (-) TimerEvent: {}
+[17.942960] (-) TimerEvent: {}
+[18.043849] (-) TimerEvent: {}
+[18.144820] (-) TimerEvent: {}
+[18.245880] (-) TimerEvent: {}
+[18.346784] (-) TimerEvent: {}
+[18.447654] (-) TimerEvent: {}
+[18.548502] (-) TimerEvent: {}
+[18.649361] (-) TimerEvent: {}
+[18.750291] (-) TimerEvent: {}
+[18.851127] (-) TimerEvent: {}
+[18.952039] (-) TimerEvent: {}
+[19.052943] (-) TimerEvent: {}
+[19.153809] (-) TimerEvent: {}
+[19.254666] (-) TimerEvent: {}
+[19.355622] (-) TimerEvent: {}
+[19.456445] (-) TimerEvent: {}
+[19.557324] (-) TimerEvent: {}
+[19.658208] (-) TimerEvent: {}
+[19.759056] (-) TimerEvent: {}
+[19.859932] (-) TimerEvent: {}
+[19.960770] (-) TimerEvent: {}
+[20.061796] (-) TimerEvent: {}
+[20.162746] (-) TimerEvent: {}
+[20.263670] (-) TimerEvent: {}
+[20.364586] (-) TimerEvent: {}
+[20.465802] (-) TimerEvent: {}
+[20.566620] (-) TimerEvent: {}
+[20.667447] (-) TimerEvent: {}
+[20.768296] (-) TimerEvent: {}
+[20.869167] (-) TimerEvent: {}
+[20.970021] (-) TimerEvent: {}
+[21.070840] (-) TimerEvent: {}
+[21.171663] (-) TimerEvent: {}
+[21.272522] (-) TimerEvent: {}
+[21.373425] (-) TimerEvent: {}
+[21.474298] (-) TimerEvent: {}
+[21.575146] (-) TimerEvent: {}
+[21.675982] (-) TimerEvent: {}
+[21.776798] (-) TimerEvent: {}
+[21.877706] (-) TimerEvent: {}
+[21.978513] (-) TimerEvent: {}
+[22.079359] (-) TimerEvent: {}
+[22.180184] (-) TimerEvent: {}
+[22.281011] (-) TimerEvent: {}
+[22.381877] (-) TimerEvent: {}
+[22.482676] (-) TimerEvent: {}
+[22.583538] (-) TimerEvent: {}
+[22.684379] (-) TimerEvent: {}
+[22.785286] (-) TimerEvent: {}
+[22.886188] (-) TimerEvent: {}
+[22.987035] (-) TimerEvent: {}
+[23.087870] (-) TimerEvent: {}
+[23.188720] (-) TimerEvent: {}
+[23.289583] (-) TimerEvent: {}
+[23.390543] (-) TimerEvent: {}
+[23.491449] (-) TimerEvent: {}
+[23.592284] (-) TimerEvent: {}
+[23.693104] (-) TimerEvent: {}
+[23.793928] (-) TimerEvent: {}
+[23.894723] (-) TimerEvent: {}
+[23.995535] (-) TimerEvent: {}
+[24.096362] (-) TimerEvent: {}
+[24.197195] (-) TimerEvent: {}
+[24.298063] (-) TimerEvent: {}
+[24.398889] (-) TimerEvent: {}
+[24.499716] (-) TimerEvent: {}
+[24.600533] (-) TimerEvent: {}
+[24.701319] (-) TimerEvent: {}
+[24.802138] (-) TimerEvent: {}
+[24.902973] (-) TimerEvent: {}
+[25.003789] (-) TimerEvent: {}
+[25.104614] (-) TimerEvent: {}
+[25.205441] (-) TimerEvent: {}
+[25.306299] (-) TimerEvent: {}
+[25.407137] (-) TimerEvent: {}
+[25.507976] (-) TimerEvent: {}
+[25.608841] (-) TimerEvent: {}
+[25.709700] (-) TimerEvent: {}
+[25.810521] (-) TimerEvent: {}
+[25.911340] (-) TimerEvent: {}
+[26.012093] (-) TimerEvent: {}
+[26.112816] (-) TimerEvent: {}
+[26.213537] (-) TimerEvent: {}
+[26.314444] (-) TimerEvent: {}
+[26.415170] (-) TimerEvent: {}
+[26.515937] (-) TimerEvent: {}
+[26.616737] (-) TimerEvent: {}
+[26.717578] (-) TimerEvent: {}
+[26.818487] (-) TimerEvent: {}
+[26.919330] (-) TimerEvent: {}
+[27.020192] (-) TimerEvent: {}
+[27.121065] (-) TimerEvent: {}
+[27.221945] (-) TimerEvent: {}
+[27.322796] (-) TimerEvent: {}
+[27.423611] (-) TimerEvent: {}
+[27.524489] (-) TimerEvent: {}
+[27.625361] (-) TimerEvent: {}
+[27.726302] (-) TimerEvent: {}
+[27.825368] (kd1_cpp_nodes) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/emergency_stop_node.dir/build.make:76: CMakeFiles/emergency_stop_node.dir/src/emergency_stop_node.cpp.o] Error 1\n'}
+[27.826460] (kd1_cpp_nodes) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/emergency_stop_node.dir/all] Error 2\n'}
+[27.827048] (-) TimerEvent: {}
+[27.827690] (kd1_cpp_nodes) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[27.835531] (kd1_cpp_nodes) CommandEnded: {'returncode': 2}
+[27.896546] (kd1_cpp_nodes) JobEnded: {'identifier': 'kd1_cpp_nodes', 'rc': 2}
+[27.908772] (-) EventReactorShutdown: {}

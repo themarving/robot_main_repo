@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing kd1_central_processing.egg-info/PKG-INFO
+writing dependency_links to kd1_central_processing.egg-info/dependency_links.txt
+writing entry points to kd1_central_processing.egg-info/entry_points.txt
+writing requirements to kd1_central_processing.egg-info/requires.txt
+writing top-level names to kd1_central_processing.egg-info/top_level.txt
+reading manifest file 'kd1_central_processing.egg-info/SOURCES.txt'
+writing manifest file 'kd1_central_processing.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/name/kd1_ws/install/kd1_central_processing/lib/python3.10/site-packages/kd1-central-processing.egg-link (link to .)
+Installing central_processing_node script to /home/name/kd1_ws/install/kd1_central_processing/lib/kd1_central_processing
+
+Installed /home/name/kd1_ws/build/kd1_central_processing
+running symlink_data
+symbolically linking /home/name/kd1_ws/build/kd1_central_processing/resource/kd1_central_processing -> /home/name/kd1_ws/install/kd1_central_processing/share/ament_index/resource_index/packages
+symbolically linking /home/name/kd1_ws/build/kd1_central_processing/package.xml -> /home/name/kd1_ws/install/kd1_central_processing/share/kd1_central_processing

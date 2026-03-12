@@ -1,0 +1,9 @@
+/home/name/kd1_ws/build/kd1_bringup/CMakeFiles/uninstall.dir
+/home/name/kd1_ws/build/kd1_bringup/CMakeFiles/kd1_bringup_uninstall.dir
+/home/name/kd1_ws/build/kd1_bringup/CMakeFiles/test.dir
+/home/name/kd1_ws/build/kd1_bringup/CMakeFiles/edit_cache.dir
+/home/name/kd1_ws/build/kd1_bringup/CMakeFiles/rebuild_cache.dir
+/home/name/kd1_ws/build/kd1_bringup/CMakeFiles/list_install_components.dir
+/home/name/kd1_ws/build/kd1_bringup/CMakeFiles/install.dir
+/home/name/kd1_ws/build/kd1_bringup/CMakeFiles/install/local.dir
+/home/name/kd1_ws/build/kd1_bringup/CMakeFiles/install/strip.dir

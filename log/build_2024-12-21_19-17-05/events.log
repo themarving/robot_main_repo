@@ -1,0 +1,96 @@
+[0.000000] (-) TimerEvent: {}
+[0.001586] (main_pkg_python) JobQueued: {'identifier': 'main_pkg_python', 'dependencies': OrderedDict()}
+[0.002506] (main_pkg_python) JobStarted: {'identifier': 'main_pkg_python'}
+[0.097904] (-) TimerEvent: {}
+[0.198566] (-) TimerEvent: {}
+[0.299322] (-) TimerEvent: {}
+[0.400045] (-) TimerEvent: {}
+[0.500816] (-) TimerEvent: {}
+[0.601547] (-) TimerEvent: {}
+[0.702491] (-) TimerEvent: {}
+[0.803261] (-) TimerEvent: {}
+[0.903964] (-) TimerEvent: {}
+[1.004762] (-) TimerEvent: {}
+[1.105513] (-) TimerEvent: {}
+[1.206221] (-) TimerEvent: {}
+[1.306924] (-) TimerEvent: {}
+[1.407663] (-) TimerEvent: {}
+[1.508498] (-) TimerEvent: {}
+[1.609523] (-) TimerEvent: {}
+[1.710325] (-) TimerEvent: {}
+[1.811144] (-) TimerEvent: {}
+[1.911932] (-) TimerEvent: {}
+[2.012757] (-) TimerEvent: {}
+[2.113441] (-) TimerEvent: {}
+[2.214125] (-) TimerEvent: {}
+[2.314804] (-) TimerEvent: {}
+[2.415534] (-) TimerEvent: {}
+[2.516198] (-) TimerEvent: {}
+[2.616866] (-) TimerEvent: {}
+[2.717614] (-) TimerEvent: {}
+[2.818281] (-) TimerEvent: {}
+[2.918985] (-) TimerEvent: {}
+[3.019752] (-) TimerEvent: {}
+[3.120476] (-) TimerEvent: {}
+[3.221227] (-) TimerEvent: {}
+[3.322105] (-) TimerEvent: {}
+[3.422808] (-) TimerEvent: {}
+[3.523680] (-) TimerEvent: {}
+[3.624413] (-) TimerEvent: {}
+[3.725220] (-) TimerEvent: {}
+[3.817498] (main_pkg_python) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/main_pkg_python', 'build', '--build-base', '/home/name/kd1_ws/build/main_pkg_python/build', 'install', '--record', '/home/name/kd1_ws/build/main_pkg_python/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/name/kd1_ws/src/main_pkg_python', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'name', 'SSH_CLIENT': '192.168.2.33 49746 22', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/name/kd1_ws/install/kd1_hardware_interfaces/lib:/home/name/kd1_ws/install/custom_interfaces/lib:/home/name/machine2_ws/install/machine2_hardware_interfaces/lib:/home/name/machine2_ws/install/machine2_controllers/lib:/home/name/machine2_ws/install/custom_interfaces/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/name/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/name', 'OLDPWD': '/home/name/kd1_ws/src', 'TERM_PROGRAM_VERSION': '1.96.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-19310472-6287-41bd-8b8b-bbe099fd4ad9.sock', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'de_DE.UTF-8', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/name/kd1_ws/install:/home/name/machine2_ws/install:/home/name/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'name', 'IGN_GAZEBO_MODEL_PATH': '/opt/ros/humble/share', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'GAZEBO_MODEL_PATH': '/opt/ros/humble/share', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/name/.vscode-server/cli/servers/Stable-fabdb6a30b49f79a7aba0f2ad9df9b399473380f/server/bin/remote-cli:/home/name/.local/bin:/opt/ros/humble/bin:/home/name/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'de_DE.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'de_DE.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '0', 'AMENT_PREFIX_PATH': '/home/name/machine2_ws/install/machine2_servo_interface:/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces:/home/name/ros2_ws/install/main_pkg:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'GAZEBO_RESOURCE_PATH': '/opt/ros/humble/share', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'PWD': '/home/name/kd1_ws/build/main_pkg_python', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.2.33 49746 192.168.2.116 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/name/kd1_ws/build/main_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:/home/name/kd1_ws/build/kd1_main_pkg_python:/home/name/kd1_ws/install/kd1_main_pkg_python/lib/python3.10/site-packages:/home/name/kd1_ws/install/kd1_main_pkg/lib/python3.10/site-packages:/home/name/kd1_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/name/machine2_ws/install/machine2_servo_interface/lib/python3.10/site-packages:/home/name/machine2_ws/install/custom_interfaces/local/lib/python3.10/dist-packages:/home/name/ros2_ws/install/main_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/name/machine2_ws/install/machine2_ik:/home/name/machine2_ws/install/machine2_hardware_interfaces:/home/name/machine2_ws/install/machine2_description:/home/name/machine2_ws/install/machine2_controllers:/home/name/machine2_ws/install/machine2_bringup:/home/name/machine2_ws/install/custom_interfaces'}, 'shell': False}
+[3.831232] (-) TimerEvent: {}
+[3.933793] (-) TimerEvent: {}
+[4.034499] (-) TimerEvent: {}
+[4.135192] (-) TimerEvent: {}
+[4.235944] (-) TimerEvent: {}
+[4.336663] (-) TimerEvent: {}
+[4.437435] (-) TimerEvent: {}
+[4.538175] (-) TimerEvent: {}
+[4.638860] (-) TimerEvent: {}
+[4.739548] (-) TimerEvent: {}
+[4.840210] (-) TimerEvent: {}
+[4.940908] (-) TimerEvent: {}
+[5.041587] (-) TimerEvent: {}
+[5.142338] (-) TimerEvent: {}
+[5.150245] (main_pkg_python) StdoutLine: {'line': b'running egg_info\n'}
+[5.152991] (main_pkg_python) StdoutLine: {'line': b'creating ../../build/main_pkg_python/main_pkg_python.egg-info\n'}
+[5.154071] (main_pkg_python) StdoutLine: {'line': b'writing ../../build/main_pkg_python/main_pkg_python.egg-info/PKG-INFO\n'}
+[5.155280] (main_pkg_python) StdoutLine: {'line': b'writing dependency_links to ../../build/main_pkg_python/main_pkg_python.egg-info/dependency_links.txt\n'}
+[5.155939] (main_pkg_python) StdoutLine: {'line': b'writing entry points to ../../build/main_pkg_python/main_pkg_python.egg-info/entry_points.txt\n'}
+[5.156506] (main_pkg_python) StdoutLine: {'line': b'writing requirements to ../../build/main_pkg_python/main_pkg_python.egg-info/requires.txt\n'}
+[5.157046] (main_pkg_python) StdoutLine: {'line': b'writing top-level names to ../../build/main_pkg_python/main_pkg_python.egg-info/top_level.txt\n'}
+[5.158125] (main_pkg_python) StdoutLine: {'line': b"writing manifest file '../../build/main_pkg_python/main_pkg_python.egg-info/SOURCES.txt'\n"}
+[5.165667] (main_pkg_python) StdoutLine: {'line': b"reading manifest file '../../build/main_pkg_python/main_pkg_python.egg-info/SOURCES.txt'\n"}
+[5.169284] (main_pkg_python) StdoutLine: {'line': b"writing manifest file '../../build/main_pkg_python/main_pkg_python.egg-info/SOURCES.txt'\n"}
+[5.170229] (main_pkg_python) StdoutLine: {'line': b'running build\n'}
+[5.170814] (main_pkg_python) StdoutLine: {'line': b'running build_py\n'}
+[5.171707] (main_pkg_python) StdoutLine: {'line': b'creating /home/name/kd1_ws/build/main_pkg_python/build\n'}
+[5.172231] (main_pkg_python) StdoutLine: {'line': b'creating /home/name/kd1_ws/build/main_pkg_python/build/lib\n'}
+[5.172600] (main_pkg_python) StdoutLine: {'line': b'creating /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python\n'}
+[5.173092] (main_pkg_python) StdoutLine: {'line': b'copying main_pkg_python/central_processing_node.py -> /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python\n'}
+[5.173447] (main_pkg_python) StdoutLine: {'line': b'copying main_pkg_python/__init__.py -> /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python\n'}
+[5.173984] (main_pkg_python) StdoutLine: {'line': b'running install\n'}
+[5.175021] (main_pkg_python) StdoutLine: {'line': b'running install_lib\n'}
+[5.178762] (main_pkg_python) StdoutLine: {'line': b'creating /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python\n'}
+[5.179520] (main_pkg_python) StdoutLine: {'line': b'copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/central_processing_node.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python\n'}
+[5.180174] (main_pkg_python) StdoutLine: {'line': b'copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/__init__.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python\n'}
+[5.182759] (main_pkg_python) StdoutLine: {'line': b'byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/central_processing_node.py to central_processing_node.cpython-310.pyc\n'}
+[5.184788] (main_pkg_python) StdoutLine: {'line': b'byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/__init__.py to __init__.cpython-310.pyc\n'}
+[5.185815] (main_pkg_python) StdoutLine: {'line': b'running install_data\n'}
+[5.186421] (main_pkg_python) StdoutLine: {'line': b'creating /home/name/kd1_ws/install/main_pkg_python/share/ament_index\n'}
+[5.186968] (main_pkg_python) StdoutLine: {'line': b'creating /home/name/kd1_ws/install/main_pkg_python/share/ament_index/resource_index\n'}
+[5.187605] (main_pkg_python) StdoutLine: {'line': b'creating /home/name/kd1_ws/install/main_pkg_python/share/ament_index/resource_index/packages\n'}
+[5.187987] (main_pkg_python) StdoutLine: {'line': b'copying resource/main_pkg_python -> /home/name/kd1_ws/install/main_pkg_python/share/ament_index/resource_index/packages\n'}
+[5.188478] (main_pkg_python) StdoutLine: {'line': b'copying package.xml -> /home/name/kd1_ws/install/main_pkg_python/share/main_pkg_python\n'}
+[5.188965] (main_pkg_python) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.196458] (main_pkg_python) StdoutLine: {'line': b'Copying ../../build/main_pkg_python/main_pkg_python.egg-info to /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python-0.0.0-py3.10.egg-info\n'}
+[5.201516] (main_pkg_python) StdoutLine: {'line': b'running install_scripts\n'}
+[5.242557] (-) TimerEvent: {}
+[5.282252] (main_pkg_python) StdoutLine: {'line': b'Installing central_processing_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python\n'}
+[5.283769] (main_pkg_python) StdoutLine: {'line': b"writing list of installed files to '/home/name/kd1_ws/build/main_pkg_python/install.log'\n"}
+[5.342845] (-) TimerEvent: {}
+[5.402208] (main_pkg_python) CommandEnded: {'returncode': 0}
+[5.444618] (-) TimerEvent: {}
+[5.462364] (main_pkg_python) JobEnded: {'identifier': 'main_pkg_python', 'rc': 0}
+[5.465268] (-) EventReactorShutdown: {}

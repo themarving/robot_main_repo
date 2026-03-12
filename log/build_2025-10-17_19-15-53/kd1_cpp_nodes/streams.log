@@ -1,0 +1,26 @@
+[0.069s] Invoking command in '/home/name/kd1_ws/build/kd1_cpp_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_cpp_nodes -- -j4 -l4
+[0.288s] [35m[1mConsolidate compiler generated dependencies of target emergency_stop_node[0m
+[0.408s] [ 50%] [32mBuilding CXX object CMakeFiles/emergency_stop_node.dir/src/emergency_stop_node.cpp.o[0m
+[48.687s] [100%] [32m[1mLinking CXX executable emergency_stop_node[0m
+[52.056s] [100%] Built target emergency_stop_node
+[52.116s] Invoked command in '/home/name/kd1_ws/build/kd1_cpp_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble /usr/bin/cmake --build /home/name/kd1_ws/build/kd1_cpp_nodes -- -j4 -l4
+[52.160s] Invoking command in '/home/name/kd1_ws/build/kd1_cpp_nodes': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_cpp_nodes
+[52.192s] -- Install configuration: ""
+[52.195s] -- Execute custom install script
+[52.197s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/lib/kd1_cpp_nodes/emergency_stop_node
+[52.198s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/share/ament_index/resource_index/package_run_dependencies/kd1_cpp_nodes
+[52.199s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/share/ament_index/resource_index/parent_prefix_path/kd1_cpp_nodes
+[52.200s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/share/kd1_cpp_nodes/environment/ament_prefix_path.sh
+[52.201s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/share/kd1_cpp_nodes/environment/ament_prefix_path.dsv
+[52.202s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/share/kd1_cpp_nodes/environment/path.sh
+[52.203s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/share/kd1_cpp_nodes/environment/path.dsv
+[52.204s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/share/kd1_cpp_nodes/local_setup.bash
+[52.205s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/share/kd1_cpp_nodes/local_setup.sh
+[52.206s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/share/kd1_cpp_nodes/local_setup.zsh
+[52.207s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/share/kd1_cpp_nodes/local_setup.dsv
+[52.208s] -- Symlinking: /home/name/kd1_ws/install/kd1_cpp_nodes/share/kd1_cpp_nodes/package.dsv
+[52.250s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/share/ament_index/resource_index/packages/kd1_cpp_nodes
+[52.251s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/share/kd1_cpp_nodes/cmake/kd1_cpp_nodesConfig.cmake
+[52.251s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/share/kd1_cpp_nodes/cmake/kd1_cpp_nodesConfig-version.cmake
+[52.252s] -- Up-to-date symlink: /home/name/kd1_ws/install/kd1_cpp_nodes/share/kd1_cpp_nodes/package.xml
+[52.259s] Invoked command in '/home/name/kd1_ws/build/kd1_cpp_nodes' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/name/kd1_ws/install/main_pkg_python:/home/name/kd1_ws/install/kd1_utility_nodes:/home/name/kd1_ws/install/kd1_sensors:/home/name/kd1_ws/install/kd1_locomotion:/home/name/kd1_ws/install/kd1_depth:/home/name/kd1_ws/install/kd1_central_processing:/home/name/machine2_ws/install/machine2_servo_interface:/opt/ros/humble /usr/bin/cmake --install /home/name/kd1_ws/build/kd1_cpp_nodes

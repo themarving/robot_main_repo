@@ -1,0 +1,52 @@
+[5.546s] Invoking command in '/home/name/kd1_ws/build/kd1_locomotion': PYTHONPATH=/home/name/kd1_ws/build/kd1_locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/name/kd1_ws/build/kd1_locomotion/build
+[8.750s] running develop
+[10.695s] Removing /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1-locomotion.egg-link (link to .)
+[12.495s] Invoked command in '/home/name/kd1_ws/build/kd1_locomotion' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/name/kd1_ws/build/kd1_locomotion/build
+[12.500s] Invoking command in '/home/name/kd1_ws/src/kd1_locomotion': PYTHONPATH=/home/name/kd1_ws/build/kd1_locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kd1_locomotion build --build-base /home/name/kd1_ws/build/kd1_locomotion/build install --record /home/name/kd1_ws/build/kd1_locomotion/install.log --single-version-externally-managed install_data --force
+[14.708s] running egg_info
+[14.711s] writing ../../build/kd1_locomotion/kd1_locomotion.egg-info/PKG-INFO
+[14.715s] writing dependency_links to ../../build/kd1_locomotion/kd1_locomotion.egg-info/dependency_links.txt
+[14.715s] writing entry points to ../../build/kd1_locomotion/kd1_locomotion.egg-info/entry_points.txt
+[14.716s] writing requirements to ../../build/kd1_locomotion/kd1_locomotion.egg-info/requires.txt
+[14.717s] writing top-level names to ../../build/kd1_locomotion/kd1_locomotion.egg-info/top_level.txt
+[14.728s] reading manifest file '../../build/kd1_locomotion/kd1_locomotion.egg-info/SOURCES.txt'
+[14.733s] writing manifest file '../../build/kd1_locomotion/kd1_locomotion.egg-info/SOURCES.txt'
+[14.734s] running build
+[14.734s] running build_py
+[14.735s] creating /home/name/kd1_ws/build/kd1_locomotion/build
+[14.737s] creating /home/name/kd1_ws/build/kd1_locomotion/build/lib
+[14.738s] creating /home/name/kd1_ws/build/kd1_locomotion/build/lib/kd1_locomotion
+[14.739s] copying kd1_locomotion/wheel_encoder_node.py -> /home/name/kd1_ws/build/kd1_locomotion/build/lib/kd1_locomotion
+[14.740s] copying kd1_locomotion/wheel_odometry_node.py -> /home/name/kd1_ws/build/kd1_locomotion/build/lib/kd1_locomotion
+[14.741s] copying kd1_locomotion/__init__.py -> /home/name/kd1_ws/build/kd1_locomotion/build/lib/kd1_locomotion
+[14.742s] copying kd1_locomotion/motor_driver_comms_node.py -> /home/name/kd1_ws/build/kd1_locomotion/build/lib/kd1_locomotion
+[14.743s] copying kd1_locomotion/teleop_node.py -> /home/name/kd1_ws/build/kd1_locomotion/build/lib/kd1_locomotion
+[14.744s] copying kd1_locomotion/moving_robot_node.py -> /home/name/kd1_ws/build/kd1_locomotion/build/lib/kd1_locomotion
+[14.746s] running install
+[14.747s] running install_lib
+[14.752s] creating /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1_locomotion
+[14.752s] copying /home/name/kd1_ws/build/kd1_locomotion/build/lib/kd1_locomotion/wheel_encoder_node.py -> /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1_locomotion
+[14.753s] copying /home/name/kd1_ws/build/kd1_locomotion/build/lib/kd1_locomotion/wheel_odometry_node.py -> /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1_locomotion
+[14.754s] copying /home/name/kd1_ws/build/kd1_locomotion/build/lib/kd1_locomotion/__init__.py -> /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1_locomotion
+[14.755s] copying /home/name/kd1_ws/build/kd1_locomotion/build/lib/kd1_locomotion/motor_driver_comms_node.py -> /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1_locomotion
+[14.756s] copying /home/name/kd1_ws/build/kd1_locomotion/build/lib/kd1_locomotion/teleop_node.py -> /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1_locomotion
+[14.757s] copying /home/name/kd1_ws/build/kd1_locomotion/build/lib/kd1_locomotion/moving_robot_node.py -> /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1_locomotion
+[14.762s] byte-compiling /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1_locomotion/wheel_encoder_node.py to wheel_encoder_node.cpython-310.pyc
+[14.765s] byte-compiling /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1_locomotion/wheel_odometry_node.py to wheel_odometry_node.cpython-310.pyc
+[14.772s] byte-compiling /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1_locomotion/__init__.py to __init__.cpython-310.pyc
+[14.773s] byte-compiling /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1_locomotion/motor_driver_comms_node.py to motor_driver_comms_node.cpython-310.pyc
+[14.777s] byte-compiling /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1_locomotion/teleop_node.py to teleop_node.cpython-310.pyc
+[14.782s] byte-compiling /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1_locomotion/moving_robot_node.py to moving_robot_node.cpython-310.pyc
+[14.788s] running install_data
+[14.789s] copying resource/kd1_locomotion -> /home/name/kd1_ws/install/kd1_locomotion/share/ament_index/resource_index/packages
+[14.790s] copying package.xml -> /home/name/kd1_ws/install/kd1_locomotion/share/kd1_locomotion
+[14.791s] running install_egg_info
+[14.804s] Copying ../../build/kd1_locomotion/kd1_locomotion.egg-info to /home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages/kd1_locomotion-0.0.0-py3.10.egg-info
+[14.813s] running install_scripts
+[14.940s] Installing motor_driver_comms_node script to /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion
+[14.941s] Installing moving_robot_node script to /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion
+[14.942s] Installing teleop_node script to /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion
+[14.943s] Installing wheel_encoder_node script to /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion
+[14.944s] Installing wheel_odometry_node script to /home/name/kd1_ws/install/kd1_locomotion/lib/kd1_locomotion
+[14.946s] writing list of installed files to '/home/name/kd1_ws/build/kd1_locomotion/install.log'
+[15.149s] Invoked command in '/home/name/kd1_ws/src/kd1_locomotion' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_locomotion/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_locomotion/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/kd1_locomotion build --build-base /home/name/kd1_ws/build/kd1_locomotion/build install --record /home/name/kd1_ws/build/kd1_locomotion/install.log --single-version-externally-managed install_data --force

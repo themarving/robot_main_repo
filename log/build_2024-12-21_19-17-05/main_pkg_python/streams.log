@@ -1,0 +1,37 @@
+[3.818s] Invoking command in '/home/name/kd1_ws/src/main_pkg_python': PYTHONPATH=/home/name/kd1_ws/build/main_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/main_pkg_python build --build-base /home/name/kd1_ws/build/main_pkg_python/build install --record /home/name/kd1_ws/build/main_pkg_python/install.log --single-version-externally-managed install_data
+[5.148s] running egg_info
+[5.150s] creating ../../build/main_pkg_python/main_pkg_python.egg-info
+[5.151s] writing ../../build/main_pkg_python/main_pkg_python.egg-info/PKG-INFO
+[5.152s] writing dependency_links to ../../build/main_pkg_python/main_pkg_python.egg-info/dependency_links.txt
+[5.153s] writing entry points to ../../build/main_pkg_python/main_pkg_python.egg-info/entry_points.txt
+[5.154s] writing requirements to ../../build/main_pkg_python/main_pkg_python.egg-info/requires.txt
+[5.154s] writing top-level names to ../../build/main_pkg_python/main_pkg_python.egg-info/top_level.txt
+[5.155s] writing manifest file '../../build/main_pkg_python/main_pkg_python.egg-info/SOURCES.txt'
+[5.163s] reading manifest file '../../build/main_pkg_python/main_pkg_python.egg-info/SOURCES.txt'
+[5.167s] writing manifest file '../../build/main_pkg_python/main_pkg_python.egg-info/SOURCES.txt'
+[5.167s] running build
+[5.168s] running build_py
+[5.169s] creating /home/name/kd1_ws/build/main_pkg_python/build
+[5.169s] creating /home/name/kd1_ws/build/main_pkg_python/build/lib
+[5.170s] creating /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python
+[5.170s] copying main_pkg_python/central_processing_node.py -> /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python
+[5.171s] copying main_pkg_python/__init__.py -> /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python
+[5.171s] running install
+[5.172s] running install_lib
+[5.176s] creating /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[5.177s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/central_processing_node.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[5.177s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/__init__.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[5.180s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/central_processing_node.py to central_processing_node.cpython-310.pyc
+[5.182s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/__init__.py to __init__.cpython-310.pyc
+[5.183s] running install_data
+[5.184s] creating /home/name/kd1_ws/install/main_pkg_python/share/ament_index
+[5.184s] creating /home/name/kd1_ws/install/main_pkg_python/share/ament_index/resource_index
+[5.185s] creating /home/name/kd1_ws/install/main_pkg_python/share/ament_index/resource_index/packages
+[5.185s] copying resource/main_pkg_python -> /home/name/kd1_ws/install/main_pkg_python/share/ament_index/resource_index/packages
+[5.186s] copying package.xml -> /home/name/kd1_ws/install/main_pkg_python/share/main_pkg_python
+[5.186s] running install_egg_info
+[5.194s] Copying ../../build/main_pkg_python/main_pkg_python.egg-info to /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python-0.0.0-py3.10.egg-info
+[5.199s] running install_scripts
+[5.279s] Installing central_processing_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[5.281s] writing list of installed files to '/home/name/kd1_ws/build/main_pkg_python/install.log'
+[5.400s] Invoked command in '/home/name/kd1_ws/src/main_pkg_python' returned '0': PYTHONPATH=/home/name/kd1_ws/build/main_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/main_pkg_python build --build-base /home/name/kd1_ws/build/main_pkg_python/build install --record /home/name/kd1_ws/build/main_pkg_python/install.log --single-version-externally-managed install_data

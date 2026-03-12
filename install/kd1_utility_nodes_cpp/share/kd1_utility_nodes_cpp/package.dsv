@@ -1,0 +1,8 @@
+source;share/kd1_utility_nodes_cpp/hook/cmake_prefix_path.ps1
+source;share/kd1_utility_nodes_cpp/hook/cmake_prefix_path.dsv
+source;share/kd1_utility_nodes_cpp/hook/cmake_prefix_path.sh
+source;share/kd1_utility_nodes_cpp/local_setup.bash
+source;share/kd1_utility_nodes_cpp/local_setup.dsv
+source;share/kd1_utility_nodes_cpp/local_setup.ps1
+source;share/kd1_utility_nodes_cpp/local_setup.sh
+source;share/kd1_utility_nodes_cpp/local_setup.zsh

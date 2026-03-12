@@ -1,0 +1,17 @@
+[11.180s] Invoking command in '/home/name/kd1_ws/build/kd1_depth': PYTHONPATH=/home/name/kd1_ws/build/kd1_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_depth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_depth/build --no-deps symlink_data
+[14.554s] running develop
+[17.491s] running egg_info
+[17.492s] writing kd1_depth.egg-info/PKG-INFO
+[17.493s] writing dependency_links to kd1_depth.egg-info/dependency_links.txt
+[17.497s] writing entry points to kd1_depth.egg-info/entry_points.txt
+[17.498s] writing requirements to kd1_depth.egg-info/requires.txt
+[17.498s] writing top-level names to kd1_depth.egg-info/top_level.txt
+[17.510s] reading manifest file 'kd1_depth.egg-info/SOURCES.txt'
+[17.514s] writing manifest file 'kd1_depth.egg-info/SOURCES.txt'
+[17.533s] running build_ext
+[17.535s] Creating /home/name/kd1_ws/install/kd1_depth/lib/python3.10/site-packages/kd1-depth.egg-link (link to .)
+[17.542s] Installing depth_pointcloud2_node script to /home/name/kd1_ws/install/kd1_depth/lib/kd1_depth
+[17.543s] 
+[17.551s] Installed /home/name/kd1_ws/build/kd1_depth
+[17.552s] running symlink_data
+[17.839s] Invoked command in '/home/name/kd1_ws/build/kd1_depth' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_depth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_depth/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_depth/build --no-deps symlink_data

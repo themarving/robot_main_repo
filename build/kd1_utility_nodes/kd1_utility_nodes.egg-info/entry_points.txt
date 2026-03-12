@@ -1,0 +1,6 @@
+[console_scripts]
+audio_playback_node = kd1_utility_nodes.audio_playback_node:main
+face_animation_node = kd1_utility_nodes.face_animation_node:main
+imu_conversion_node = kd1_utility_nodes.imu_conversion_node:main
+light_ring_node = kd1_utility_nodes.light_ring_node:main
+

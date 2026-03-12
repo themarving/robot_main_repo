@@ -1,0 +1,25 @@
+[4.535s] Invoking command in '/home/name/kd1_ws/build/main_pkg_python': PYTHONPATH=/home/name/kd1_ws/build/main_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/main_pkg_python/build --no-deps symlink_data
+[6.511s] running develop
+[6.513s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.514s]   warnings.warn(
+[8.210s] running egg_info
+[8.212s] writing main_pkg_python.egg-info/PKG-INFO
+[8.213s] writing dependency_links to main_pkg_python.egg-info/dependency_links.txt
+[8.214s] writing entry points to main_pkg_python.egg-info/entry_points.txt
+[8.215s] writing requirements to main_pkg_python.egg-info/requires.txt
+[8.216s] writing top-level names to main_pkg_python.egg-info/top_level.txt
+[8.227s] reading manifest file 'main_pkg_python.egg-info/SOURCES.txt'
+[8.232s] writing manifest file 'main_pkg_python.egg-info/SOURCES.txt'
+[8.240s] running build_ext
+[8.243s] Creating /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main-pkg-python.egg-link (link to .)
+[8.251s] Installing central_processing_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[8.252s] Installing depth_data_processing_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[8.253s] Installing face_animation_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[8.254s] Installing human_detection_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[8.255s] Installing light_ring_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[8.256s] Installing motor_driver_comms_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[8.257s] Installing tof_sensors_comms_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[8.257s] 
+[8.258s] Installed /home/name/kd1_ws/build/main_pkg_python
+[8.260s] running symlink_data
+[8.457s] Invoked command in '/home/name/kd1_ws/build/main_pkg_python' returned '0': PYTHONPATH=/home/name/kd1_ws/build/main_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/main_pkg_python/build --no-deps symlink_data

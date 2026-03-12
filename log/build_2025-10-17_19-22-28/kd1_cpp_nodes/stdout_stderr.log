@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target emergency_stop_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/emergency_stop_node.dir/src/emergency_stop_node.cpp.o[0m
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:161:109:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::shared_future<std::shared_ptr<rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateToPose> > > EmergencyStopNode::cancel_future_[m[K’
+  161 | le<nav2_msgs::action::NavigateToPose>>> [01;31m[Kcancel_future_[m[K;
+      |                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:130:80:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kstd::shared_future<std::shared_ptr<action_msgs::srv::CancelGoal_Response_<std::allocator<void> > > > EmergencyStopNode::cancel_future_[m[K’
+  130 | action_msgs::srv::CancelGoal_Response>> [01;36m[Kcancel_future_[m[K;
+      |                                         [01;36m[K^~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/emergency_stop_node.dir/build.make:76: CMakeFiles/emergency_stop_node.dir/src/emergency_stop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/emergency_stop_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

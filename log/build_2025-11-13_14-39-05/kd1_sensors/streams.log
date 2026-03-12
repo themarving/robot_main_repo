@@ -1,0 +1,19 @@
+[27.395s] Invoking command in '/home/name/kd1_ws/build/kd1_sensors': PYTHONPATH=/home/name/kd1_ws/build/kd1_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_sensors/build --no-deps symlink_data
+[31.265s] running develop
+[34.004s] running egg_info
+[34.012s] writing kd1_sensors.egg-info/PKG-INFO
+[34.014s] writing dependency_links to kd1_sensors.egg-info/dependency_links.txt
+[34.014s] writing entry points to kd1_sensors.egg-info/entry_points.txt
+[34.015s] writing requirements to kd1_sensors.egg-info/requires.txt
+[34.015s] writing top-level names to kd1_sensors.egg-info/top_level.txt
+[34.023s] reading manifest file 'kd1_sensors.egg-info/SOURCES.txt'
+[34.028s] writing manifest file 'kd1_sensors.egg-info/SOURCES.txt'
+[34.043s] running build_ext
+[34.047s] Creating /home/name/kd1_ws/install/kd1_sensors/lib/python3.10/site-packages/kd1-sensors.egg-link (link to .)
+[34.051s] Installing audio_direction_node script to /home/name/kd1_ws/install/kd1_sensors/lib/kd1_sensors
+[34.051s] Installing oak_depthai_node script to /home/name/kd1_ws/install/kd1_sensors/lib/kd1_sensors
+[34.052s] Installing voice_recognition_node script to /home/name/kd1_ws/install/kd1_sensors/lib/kd1_sensors
+[34.054s] 
+[34.055s] Installed /home/name/kd1_ws/build/kd1_sensors
+[34.057s] running symlink_data
+[34.312s] Invoked command in '/home/name/kd1_ws/build/kd1_sensors' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_sensors/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_sensors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_sensors/build --no-deps symlink_data

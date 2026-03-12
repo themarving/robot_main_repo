@@ -1,0 +1,64 @@
+[5.364s] Invoking command in '/home/name/kd1_ws/build/main_pkg_python': PYTHONPATH=/home/name/kd1_ws/build/main_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/name/kd1_ws/build/main_pkg_python/build
+[7.386s] running develop
+[8.764s] Removing /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main-pkg-python.egg-link (link to .)
+[8.933s] Invoked command in '/home/name/kd1_ws/build/main_pkg_python' returned '0': PYTHONPATH=/home/name/kd1_ws/build/main_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/name/kd1_ws/build/main_pkg_python/build
+[8.944s] Invoking command in '/home/name/kd1_ws/src/main_pkg_python': PYTHONPATH=/home/name/kd1_ws/build/main_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/main_pkg_python build --build-base /home/name/kd1_ws/build/main_pkg_python/build install --record /home/name/kd1_ws/build/main_pkg_python/install.log --single-version-externally-managed install_data --force
+[10.404s] running egg_info
+[10.408s] writing ../../build/main_pkg_python/main_pkg_python.egg-info/PKG-INFO
+[10.409s] writing dependency_links to ../../build/main_pkg_python/main_pkg_python.egg-info/dependency_links.txt
+[10.410s] writing entry points to ../../build/main_pkg_python/main_pkg_python.egg-info/entry_points.txt
+[10.411s] writing requirements to ../../build/main_pkg_python/main_pkg_python.egg-info/requires.txt
+[10.411s] writing top-level names to ../../build/main_pkg_python/main_pkg_python.egg-info/top_level.txt
+[10.421s] reading manifest file '../../build/main_pkg_python/main_pkg_python.egg-info/SOURCES.txt'
+[10.426s] writing manifest file '../../build/main_pkg_python/main_pkg_python.egg-info/SOURCES.txt'
+[10.427s] running build
+[10.428s] running build_py
+[10.429s] copying main_pkg_python/central_processing_node.py -> /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python
+[10.431s] copying main_pkg_python/oak_depthai_node.py -> /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python
+[10.433s] copying main_pkg_python/motor_driver_comms_node.py -> /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python
+[10.433s] copying main_pkg_python/teleop_node.py -> /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python
+[10.435s] copying main_pkg_python/moving_robot_node.py -> /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python
+[10.438s] running install
+[10.438s] running install_lib
+[10.442s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/audio_direction_node.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[10.443s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/central_processing_node.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[10.444s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/light_ring_node.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[10.444s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/audio_playback_node.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[10.445s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/tof_sensors_comms_node.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[10.446s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/voice_recognition_node.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[10.447s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/__init__.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[10.448s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/face_animation_node.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[10.449s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/oak_depthai_node.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[10.450s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/motor_driver_comms_node.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[10.452s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/teleop_node.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[10.452s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/moving_robot_node.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[10.455s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/audio_direction_node.py to audio_direction_node.cpython-310.pyc
+[10.457s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/central_processing_node.py to central_processing_node.cpython-310.pyc
+[10.462s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/light_ring_node.py to light_ring_node.cpython-310.pyc
+[10.465s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/audio_playback_node.py to audio_playback_node.cpython-310.pyc
+[10.467s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/tof_sensors_comms_node.py to tof_sensors_comms_node.cpython-310.pyc
+[10.470s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/voice_recognition_node.py to voice_recognition_node.cpython-310.pyc
+[10.473s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/__init__.py to __init__.cpython-310.pyc
+[10.474s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/face_animation_node.py to face_animation_node.cpython-310.pyc
+[10.479s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/oak_depthai_node.py to oak_depthai_node.cpython-310.pyc
+[10.485s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/motor_driver_comms_node.py to motor_driver_comms_node.cpython-310.pyc
+[10.488s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/teleop_node.py to teleop_node.cpython-310.pyc
+[10.491s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/moving_robot_node.py to moving_robot_node.cpython-310.pyc
+[10.495s] running install_data
+[10.497s] copying resource/main_pkg_python -> /home/name/kd1_ws/install/main_pkg_python/share/ament_index/resource_index/packages
+[10.498s] copying package.xml -> /home/name/kd1_ws/install/main_pkg_python/share/main_pkg_python
+[10.499s] running install_egg_info
+[10.506s] Copying ../../build/main_pkg_python/main_pkg_python.egg-info to /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python-0.0.0-py3.10.egg-info
+[10.512s] running install_scripts
+[10.596s] Installing audio_direction_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[10.598s] Installing audio_playback_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[10.598s] Installing central_processing_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[10.600s] Installing face_animation_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[10.600s] Installing light_ring_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[10.601s] Installing motor_driver_comms_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[10.601s] Installing moving_robot_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[10.602s] Installing oak_depthai_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[10.603s] Installing teleop_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[10.604s] Installing tof_sensors_comms_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[10.605s] Installing voice_recognition_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[10.607s] writing list of installed files to '/home/name/kd1_ws/build/main_pkg_python/install.log'

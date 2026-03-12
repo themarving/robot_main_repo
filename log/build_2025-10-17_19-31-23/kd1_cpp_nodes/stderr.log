@@ -1,0 +1,17 @@
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:169:63:[m[K [01;31m[Kerror: [m[K‘[01m[KCancelAllGoalsFuture[m[K’ in ‘[01m[Kclass rclcpp_action::Client<nav2_msgs::action::NavigateToPose>[m[K’ does not name a type
+  169 |     rclcpp_action::Client<nav2_msgs::action::NavigateToPose>::[01;31m[KCancelAllGoalsFuture[m[K::SharedPtr cancel_future_;
+      |                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:[m[K In member function ‘[01m[Kvoid EmergencyStopNode::cancel_nav2_goal()[m[K’:
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:99:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcancel_future_[m[K’ was not declared in this scope
+   99 |             [01;31m[Kcancel_future_[m[K = cancel_navto_client_->async_cancel_all_goals();
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:[m[K In member function ‘[01m[Kvoid EmergencyStopNode::check_cancel_future()[m[K’:
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:116:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kcancel_future_[m[K’ was not declared in this scope
+  116 |         if (![01;31m[Kcancel_future_[m[K)
+      |              [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/name/kd1_ws/src/kd1_cpp_nodes/src/emergency_stop_node.cpp:119:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcancel_future_[m[K’ was not declared in this scope
+  119 |         if ([01;31m[Kcancel_future_[m[K->wait_for(std::chrono::seconds(0)) == std::future_status::ready)
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/emergency_stop_node.dir/build.make:76: CMakeFiles/emergency_stop_node.dir/src/emergency_stop_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/emergency_stop_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

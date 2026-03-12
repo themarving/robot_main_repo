@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="kd1"> 
+    <!-- LAUNCH: ros2 launch urdf_tutorial display.launch.py model:=/home/marvin/kd1_ws/src/kd1_description/urdf/kd1.urdf.xacro -->
+
+    <!-- 
+        x (red) = forward
+        y (green) = left
+        z (blue) = up 
+    -->
+
+    <!-- PROPERTIES = VARIABLES -->
+    <xacro:property name="PI" value="3.14159"/>
+
+    <xacro:property name="wheel_diameter" value="0.065"/>
+    <xacro:property name="wheel_radius" value="${wheel_diameter / 2}"/>
+    <xacro:property name="wheel_width" value="0.028"/>
+
+    <xacro:property name="caster_wheel_diameter" value="0.05"/>
+    <xacro:property name="caster_wheel_radius" value="${caster_wheel_diameter / 2}"/>
+
+    <xacro:property name="wheel_base" value="0.245"/>
+    <xacro:property name="robot_length" value="0.40"/>
+
+    <!-- MACROS = FUNCTIONS -->
+
+
+    <!-- 
+        LINKS 
+    -->
+
+    <link name="base_link">
+        <visual>
+            <origin xyz="0 0 0.0" rpy="0 0 0"/>
+            <geometry>
+                <!-- length, width, height in meters -->
+                <box size="0.01 0.01 0.01" />
+            </geometry>
+            <material name="red">
+                <color rgba="1 0 0 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- LEFT WHEEL -->
+    <link name="left_wheel_link">
+        <visual>
+            <origin xyz="0.0 0.0 0.0" rpy="${PI/2} 0 0"/>
+            <geometry>
+                <cylinder length="${wheel_width}" radius="${wheel_radius}"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0 0 0 1"/>
+            </material>
+        </visual>
+    </link>
+    
+    <!-- RIGHT WHEEL -->
+    <link name="right_wheel_link">
+        <visual>
+          <origin xyz="0.0 0.0 0.0" rpy="${PI/2} 0 0"/>
+          <geometry>
+            <cylinder length="${wheel_width}" radius="${wheel_radius}"/>
+          </geometry>
+          <material name="black">
+            <color rgba="0 0 0 1"/>
+          </material>
+        </visual>
+    </link>
+    
+    <!-- CASTER WHEEL -->
+    <link name="caster_link">
+        <visual>
+        <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+            <geometry>
+                <sphere radius="${caster_wheel_radius}"/>
+            </geometry>
+            <material name="blue">
+                <color rgba="0 0 1 1"/>
+            </material>
+        </visual>
+    </link>
+
+    <!-- IMU -->
+    <link name="imu_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.01 0.09 0.02"/>
+            </geometry>
+            <material name="black">
+                <color rgba="0 0 0 1"/>
+            </material>
+        </visual>
+    </link>      
+    
+    <!-- DEPTH CAMERA -->
+    <link name="depth_camera_link"/>
+
+    <!-- TOF SENSORS -->
+    <link name="tof_front_left_link"/>
+    <link name="tof_front_right_link"/>
+    <link name="tof_back_left_link"/>
+    <link name="tof_back_right_link"/>
+
+
+    <!-- 
+        JOINTS 
+    -->
+
+    <!-- LEFT WHEEL -->
+    <joint name="left_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="left_wheel_link"/>
+        <origin xyz="${robot_length / 2} ${wheel_base / 2} ${wheel_diameter / 2}" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <!-- RIGHT WHEEL -->
+    <joint name="right_wheel_joint" type="continuous">
+        <parent link="base_link"/>
+        <child link="right_wheel_link"/>
+        <origin xyz="${robot_length / 2} -${wheel_base / 2} ${wheel_diameter / 2}" rpy="0 0 0"/>
+        <axis xyz="0 1 0"/>
+    </joint>
+
+    <!-- CASTER WHEEL -->
+    <joint name="caster_wheel_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="caster_link"/>
+        <origin xyz="-${robot_length / 2} 0.0 ${caster_wheel_diameter / 2}" rpy="0 0 0"/>
+    </joint>
+
+    <!-- IMU Z was 0.14 -->
+    <joint name="imu_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="imu_link"/>
+        <origin xyz="${(robot_length / 2) - 0.06} 0.0 0.18" rpy="0 0 0"/>
+    </joint>
+
+    <!-- DEPTH CAMERA -->
+    <joint name="imu_to_depth_camera" type="fixed">
+        <parent link="imu_link"/>
+        <child link="depth_camera_link"/>
+        <!-- Rotate 90 degrees counter clockwise around X-axis, camera looks to the front not up -->
+        <origin xyz="0 0 0" rpy="-${PI/2} 0 -${PI/2}"/> 
+    </joint>
+
+    <!-- TOF SENSOR FRONT LEFT -->
+    <joint name="base_link_to_tof_front_left" type="fixed">
+        <parent link="base_link"/>
+        <child link="tof_front_left_link"/>
+        <origin xyz="${robot_length / 2} ${wheel_base / 2} 0.06" rpy="0 0 -${PI/4}"/>
+    </joint>
+
+    <!-- TOF SENSOR FRONT RIGHT -->
+    <joint name="base_link_to_tof_front_right" type="fixed">
+        <parent link="base_link"/>
+        <child link="tof_front_right_link"/>
+        <origin xyz="${robot_length / 2} -${wheel_base / 2} 0.06" rpy="0 0 ${PI/4}"/>
+    </joint>
+
+    <!-- TOF SENSOR BACK LEFT -->
+    <joint name="base_link_to_tof_back_left" type="fixed">
+        <parent link="base_link"/>
+        <child link="tof_back_left_link"/>
+        <origin xyz="-${robot_length / 2} ${wheel_base / 4} 0.06" rpy="0 0 ${PI/2}"/>
+    </joint>
+
+    <!-- TOF SENSOR BACK RIGHT -->
+    <joint name="base_link_to_tof_back_right" type="fixed">
+        <parent link="base_link"/>
+        <child link="tof_back_right_link"/>
+        <origin xyz="-${robot_length / 2} -${wheel_base / 4} 0.06" rpy="0 0 -${PI/2}"/>
+    </joint>
+</robot>

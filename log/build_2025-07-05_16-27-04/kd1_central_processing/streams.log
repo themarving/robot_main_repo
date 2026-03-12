@@ -1,0 +1,17 @@
+[8.253s] Invoking command in '/home/name/kd1_ws/build/kd1_central_processing': PYTHONPATH=/home/name/kd1_ws/build/kd1_central_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_central_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_central_processing/build --no-deps symlink_data
+[11.837s] running develop
+[15.643s] running egg_info
+[15.661s] writing kd1_central_processing.egg-info/PKG-INFO
+[15.666s] writing dependency_links to kd1_central_processing.egg-info/dependency_links.txt
+[15.678s] writing entry points to kd1_central_processing.egg-info/entry_points.txt
+[15.681s] writing requirements to kd1_central_processing.egg-info/requires.txt
+[15.682s] writing top-level names to kd1_central_processing.egg-info/top_level.txt
+[15.717s] reading manifest file 'kd1_central_processing.egg-info/SOURCES.txt'
+[15.722s] writing manifest file 'kd1_central_processing.egg-info/SOURCES.txt'
+[15.762s] running build_ext
+[15.763s] Creating /home/name/kd1_ws/install/kd1_central_processing/lib/python3.10/site-packages/kd1-central-processing.egg-link (link to .)
+[15.779s] Installing central_processing_node script to /home/name/kd1_ws/install/kd1_central_processing/lib/kd1_central_processing
+[15.801s] 
+[15.802s] Installed /home/name/kd1_ws/build/kd1_central_processing
+[15.803s] running symlink_data
+[16.196s] Invoked command in '/home/name/kd1_ws/build/kd1_central_processing' returned '0': PYTHONPATH=/home/name/kd1_ws/build/kd1_central_processing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/kd1_central_processing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/name/kd1_ws/build/kd1_central_processing/build --no-deps symlink_data

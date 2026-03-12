@@ -1,0 +1,16 @@
+/home/name/kd1_ws/install/kd1_description/share/kd1_description/urdf/kd1.urdf.xacro
+/home/name/kd1_ws/install/kd1_description/share/ament_index/resource_index/package_run_dependencies/kd1_description
+/home/name/kd1_ws/install/kd1_description/share/ament_index/resource_index/parent_prefix_path/kd1_description
+/home/name/kd1_ws/install/kd1_description/share/kd1_description/environment/ament_prefix_path.sh
+/home/name/kd1_ws/install/kd1_description/share/kd1_description/environment/ament_prefix_path.dsv
+/home/name/kd1_ws/install/kd1_description/share/kd1_description/environment/path.sh
+/home/name/kd1_ws/install/kd1_description/share/kd1_description/environment/path.dsv
+/home/name/kd1_ws/install/kd1_description/share/kd1_description/local_setup.bash
+/home/name/kd1_ws/install/kd1_description/share/kd1_description/local_setup.sh
+/home/name/kd1_ws/install/kd1_description/share/kd1_description/local_setup.zsh
+/home/name/kd1_ws/install/kd1_description/share/kd1_description/local_setup.dsv
+/home/name/kd1_ws/install/kd1_description/share/kd1_description/package.dsv
+/home/name/kd1_ws/install/kd1_description/share/ament_index/resource_index/packages/kd1_description
+/home/name/kd1_ws/install/kd1_description/share/kd1_description/cmake/kd1_descriptionConfig.cmake
+/home/name/kd1_ws/install/kd1_description/share/kd1_description/cmake/kd1_descriptionConfig-version.cmake
+/home/name/kd1_ws/install/kd1_description/share/kd1_description/package.xml

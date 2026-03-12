@@ -1,0 +1,16 @@
+[console_scripts]
+audio_direction_node = main_pkg_python.audio_direction_node:main
+audio_playback_node = main_pkg_python.audio_playback_node:main
+central_processing_node = main_pkg_python.central_processing_node:main
+face_animation_node = main_pkg_python.face_animation_node:main
+imu_conversion_node = main_pkg_python.imu_conversion_node:main
+light_ring_node = main_pkg_python.light_ring_node:main
+motor_driver_comms_node = main_pkg_python.motor_driver_comms_node:main
+moving_robot_node = main_pkg_python.moving_robot_node:main
+oak_depthai_node = main_pkg_python.oak_depthai_node:main
+teleop_node = main_pkg_python.teleop_node:main
+tof_sensors_comms_node = main_pkg_python.tof_sensors_comms_node:main
+voice_recognition_node = main_pkg_python.voice_recognition_node:main
+wheel_encoder_node = main_pkg_python.wheel_encoder_node:main
+wheel_odometry_node = main_pkg_python.wheel_odometry_node:main
+

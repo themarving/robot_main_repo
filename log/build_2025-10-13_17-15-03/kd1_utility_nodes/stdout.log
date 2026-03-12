@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing kd1_utility_nodes.egg-info/PKG-INFO
+writing dependency_links to kd1_utility_nodes.egg-info/dependency_links.txt
+writing entry points to kd1_utility_nodes.egg-info/entry_points.txt
+writing requirements to kd1_utility_nodes.egg-info/requires.txt
+writing top-level names to kd1_utility_nodes.egg-info/top_level.txt
+reading manifest file 'kd1_utility_nodes.egg-info/SOURCES.txt'
+writing manifest file 'kd1_utility_nodes.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/name/kd1_ws/install/kd1_utility_nodes/lib/python3.10/site-packages/kd1-utility-nodes.egg-link (link to .)
+Installing audio_playback_node script to /home/name/kd1_ws/install/kd1_utility_nodes/lib/kd1_utility_nodes
+Installing face_animation_node script to /home/name/kd1_ws/install/kd1_utility_nodes/lib/kd1_utility_nodes
+Installing imu_conversion_node script to /home/name/kd1_ws/install/kd1_utility_nodes/lib/kd1_utility_nodes
+Installing light_ring_node script to /home/name/kd1_ws/install/kd1_utility_nodes/lib/kd1_utility_nodes
+Installing nav_cmd_conversion_node script to /home/name/kd1_ws/install/kd1_utility_nodes/lib/kd1_utility_nodes
+
+Installed /home/name/kd1_ws/build/kd1_utility_nodes
+running symlink_data

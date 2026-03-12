@@ -1,0 +1,26 @@
+[4.536s] Invoking command in '/home/name/kd1_ws/src/main_pkg_python': PYTHONPATH=/home/name/kd1_ws/build/main_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/main_pkg_python build --build-base /home/name/kd1_ws/build/main_pkg_python/build install --record /home/name/kd1_ws/build/main_pkg_python/install.log --single-version-externally-managed install_data
+[6.509s] running egg_info
+[6.512s] writing ../../build/main_pkg_python/main_pkg_python.egg-info/PKG-INFO
+[6.514s] writing dependency_links to ../../build/main_pkg_python/main_pkg_python.egg-info/dependency_links.txt
+[6.515s] writing entry points to ../../build/main_pkg_python/main_pkg_python.egg-info/entry_points.txt
+[6.517s] writing requirements to ../../build/main_pkg_python/main_pkg_python.egg-info/requires.txt
+[6.518s] writing top-level names to ../../build/main_pkg_python/main_pkg_python.egg-info/top_level.txt
+[6.528s] reading manifest file '../../build/main_pkg_python/main_pkg_python.egg-info/SOURCES.txt'
+[6.534s] writing manifest file '../../build/main_pkg_python/main_pkg_python.egg-info/SOURCES.txt'
+[6.534s] running build
+[6.535s] running build_py
+[6.536s] copying main_pkg_python/face_animation_node.py -> /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python
+[6.538s] running install
+[6.540s] running install_lib
+[6.545s] copying /home/name/kd1_ws/build/main_pkg_python/build/lib/main_pkg_python/face_animation_node.py -> /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python
+[6.549s] byte-compiling /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python/face_animation_node.py to face_animation_node.cpython-310.pyc
+[6.556s] running install_data
+[6.557s] running install_egg_info
+[6.566s] removing '/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python-0.0.0-py3.10.egg-info' (and everything under it)
+[6.568s] Copying ../../build/main_pkg_python/main_pkg_python.egg-info to /home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages/main_pkg_python-0.0.0-py3.10.egg-info
+[6.580s] running install_scripts
+[6.685s] Installing central_processing_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[6.686s] Installing face_animation_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[6.688s] Installing human_detection_node script to /home/name/kd1_ws/install/main_pkg_python/lib/main_pkg_python
+[6.690s] writing list of installed files to '/home/name/kd1_ws/build/main_pkg_python/install.log'
+[6.872s] Invoked command in '/home/name/kd1_ws/src/main_pkg_python' returned '0': PYTHONPATH=/home/name/kd1_ws/build/main_pkg_python/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/name/kd1_ws/install/main_pkg_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/main_pkg_python build --build-base /home/name/kd1_ws/build/main_pkg_python/build install --record /home/name/kd1_ws/build/main_pkg_python/install.log --single-version-externally-managed install_data
